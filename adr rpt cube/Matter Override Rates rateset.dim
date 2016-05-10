@@ -1,0 +1,1748 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9e7a945a-eef7-433d-aa99-972d32e0ddc1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Matter Override Rates rateset</ID>
+  <Name>Matter Override Rates rateset</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="104" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1983" scrolltop="-3757" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8652" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="matter_override_rates (rateset)" left="20" top="0" logicalid="52" controlid="1" masterid="0" hint1="0" hint2="0" width="5900" height="6640" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00000c170000f0190000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_matter_override_rates" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="aged_ar" left="12367" top="3094" logicalid="53" controlid="2" masterid="0" hint1="0" hint2="0" width="3995" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00009b0f0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_aged_ar" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="apportioned_pct" left="5099" top="0" logicalid="54" controlid="3" masterid="0" hint1="0" hint2="0" width="4868" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00000413000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_apportioned_pct" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="bill_group_detail" left="19714" top="26348" logicalid="55" controlid="4" masterid="0" hint1="0" hint2="0" width="3201" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000810c0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_bill_group_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="client_detail" left="19185" top="33590" logicalid="56" controlid="5" masterid="0" hint1="0" hint2="0" width="4260" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000a410000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_client_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="disbursment_detail" left="18159" top="48390" logicalid="57" controlid="6" masterid="0" hint1="0" hint2="0" width="3175" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000670c000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_disbursment_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="fee_write_off_detail" left="12367" top="14827" logicalid="58" controlid="7" masterid="0" hint1="0" hint2="0" width="3757" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000ad0e0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_fee_write_off_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="fees_summary" left="6210" top="7400" logicalid="59" controlid="8" masterid="0" hint1="0" hint2="0" width="3757" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000ad0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_fees_summary" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="matter_detail" left="11705" top="30048" logicalid="60" controlid="9" masterid="0" hint1="0" hint2="0" width="4789" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b512000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_matter_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="prebill_detail" left="18894" top="19106" logicalid="61" controlid="10" masterid="0" hint1="0" hint2="0" width="4842" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000ea120000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_prebill_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="reciept_detail" left="18524" top="9067" logicalid="62" controlid="11" masterid="0" hint1="0" hint2="0" width="3466" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00008a0d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_reciept_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tran_detail" left="12896" top="10548" logicalid="63" controlid="12" masterid="0" hint1="0" hint2="0" width="3228" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00009c0c000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tran_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="aged_wip" left="6866" top="49104" logicalid="64" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_aged_wip" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="time_detail" left="12266" top="48390" logicalid="65" controlid="14" masterid="0" hint1="0" hint2="0" width="3493" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000a50d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_time_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (fee summary)" left="0" top="7400" logicalid="66" controlid="15" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDate" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="matter_override_rates (matter)" left="3325" top="30127" logicalid="67" controlid="16" masterid="0" hint1="0" hint2="0" width="5980" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00005c170000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_matter_override_rates1" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter closed date)" left="24390" top="11706" logicalid="68" controlid="17" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDate1" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter open date)" left="18894" top="40990" logicalid="69" controlid="18" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDate2" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9667" top="4580" logicalid="70" controlid="19" masterid="0" hint1="0" hint2="0" width="3000" height="4620" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[aged_ar-fees_summary]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="2" sourceattachpoint="19" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9967" y="8800" />
+              <point x="11167" y="8800" />
+              <point x="11167" y="4880" />
+              <point x="12367" y="4880" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7233" top="4700" logicalid="71" controlid="20" masterid="0" hint1="0" hint2="0" width="1255" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[apportioned_pct-fees_summary]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="3" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8088" y="7400" />
+              <point x="8088" y="6200" />
+              <point x="7533" y="6200" />
+              <point x="7533" y="5000" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="14250" top="34549" logicalid="72" controlid="21" masterid="0" hint1="0" hint2="0" width="5796" height="14141" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[disbursment_detail-matter_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="6" sourceattachpoint="11" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14649" y="35048" />
+              <point x="14649" y="41719" />
+              <point x="19746" y="41719" />
+              <point x="19746" y="48390" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="13150" top="19369" logicalid="73" controlid="22" masterid="0" hint1="0" hint2="0" width="1395" height="11179" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fee_write_off_detail-matter_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="7" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13549" y="30048" />
+              <point x="13549" y="24859" />
+              <point x="14245" y="24859" />
+              <point x="14245" y="19669" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7788" top="12100" logicalid="74" controlid="23" masterid="0" hint1="0" hint2="0" width="5061" height="18448" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fees_summary-matter_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="8" sourceattachpoint="2" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12449" y="30048" />
+              <point x="12449" y="21224" />
+              <point x="8088" y="21224" />
+              <point x="8088" y="12400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-80" top="6340" logicalid="75" controlid="24" masterid="0" hint1="0" hint2="0" width="13479" height="24208" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_override_rates-matter_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="1" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12999" y="30048" />
+              <point x="12999" y="18344" />
+              <point x="220" y="18344" />
+              <point x="220" y="6640" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="13700" top="13609" logicalid="76" controlid="25" masterid="0" hint1="0" hint2="0" width="6857" height="16939" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[reciept_detail-matter_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="11" sourceattachpoint="8" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14099" y="30048" />
+              <point x="14099" y="21979" />
+              <point x="20257" y="21979" />
+              <point x="20257" y="13909" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="16194" top="32248" logicalid="77" controlid="26" masterid="0" hint1="0" hint2="0" width="3291" height="4242" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_detail-client_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="9" sourceattachpoint="22" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="19185" y="36090" />
+              <point x="17840" y="36090" />
+              <point x="17840" y="32548" />
+              <point x="16494" y="32548" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="20916" top="30890" logicalid="78" controlid="27" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[bill_group_detail-client_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="21315" y="33590" />
+              <point x="21315" y="32390" />
+              <point x="21314" y="32390" />
+              <point x="21314" y="31190" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9566" top="50491" logicalid="79" controlid="28" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_time_detail_dbo_aged_wip]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="13" sourceattachpoint="18" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12266" y="50890" />
+              <point x="9866" y="50890" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="12600" top="34549" logicalid="80" controlid="29" masterid="0" hint1="0" hint2="0" width="1712" height="14141" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_matter_detail_dbo_time_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="14" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12999" y="35048" />
+              <point x="12999" y="41719" />
+              <point x="14012" y="41719" />
+              <point x="14012" y="48390" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9667" top="10150" logicalid="81" controlid="30" masterid="0" hint1="0" hint2="0" width="3529" height="1737" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fees_summary-tran_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="8" sourceattachpoint="12" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12896" y="11487" />
+              <point x="11432" y="11487" />
+              <point x="11432" y="10450" />
+              <point x="9967" y="10450" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="13945" top="11928" logicalid="82" controlid="31" masterid="0" hint1="0" hint2="0" width="965" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fee_write_off_detail-tran_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="7" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14510" y="12427" />
+              <point x="14510" y="13627" />
+              <point x="14245" y="13627" />
+              <point x="14245" y="14827" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="15824" top="11088" logicalid="83" controlid="32" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[reciept_detail-tran_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="11" sourceattachpoint="13" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="16124" y="11487" />
+              <point x="17324" y="11487" />
+              <point x="17324" y="11488" />
+              <point x="18524" y="11488" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="16194" top="21227" logicalid="84" controlid="33" masterid="0" hint1="0" hint2="0" width="3000" height="10071" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[prebill_detail-matter_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="10" sourceattachpoint="21" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="16494" y="30898" />
+              <point x="17694" y="30898" />
+              <point x="17694" y="21527" />
+              <point x="18894" y="21527" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="20915" top="23648" logicalid="85" controlid="34" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[prebill_detail-bill_group_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="10" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="21314" y="26348" />
+              <point x="21314" y="25148" />
+              <point x="21315" y="25148" />
+              <point x="21315" y="23948" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3510" top="9501" logicalid="86" controlid="35" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fees_summary-DimDate]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="15" destid="8" sourceattachpoint="23" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3810" y="9900" />
+              <point x="6210" y="9900" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9005" top="32149" logicalid="87" controlid="36" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_matter_detail_dbo_matter_override_rates1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="16" sourceattachpoint="26" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11705" y="32548" />
+              <point x="9305" y="32548" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="16194" top="33898" logicalid="88" controlid="37" masterid="0" hint1="0" hint2="0" width="3000" height="9992" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_detail-DimDate (matter open date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="18" destid="9" sourceattachpoint="22" destattachpoint="33" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="18894" y="43490" />
+              <point x="17694" y="43490" />
+              <point x="17694" y="34198" />
+              <point x="16494" y="34198" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="14349" top="16207" logicalid="89" controlid="38" masterid="0" hint1="0" hint2="0" width="12346" height="14141" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_detail-DimDate (matter closed date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="17" destid="9" sourceattachpoint="7" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="26295" y="16706" />
+              <point x="26295" y="23377" />
+              <point x="14649" y="23377" />
+              <point x="14649" y="30048" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (rateset attachment start date)" left="34050" top="0" logicalid="90" controlid="39" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="terf" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DateDim (rateset attachment end date)" left="27240" top="0" logicalid="91" controlid="40" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DateDim (rateset attachment end date)" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DateDim (rateset override start date)" left="20430" top="0" logicalid="92" controlid="41" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DateDim (rateset override start date)" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (rateset override end date)" left="13620" top="0" logicalid="93" controlid="42" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rateset override end date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter override start date)" left="6810" top="0" logicalid="94" controlid="43" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DimDate (matter override start date)" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter override end date)" left="-1429" top="-1376" logicalid="95" controlid="44" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DimDate (matter override end date)" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="470" top="-700" logicalid="96" controlid="45" masterid="0" hint1="0" hint2="0" width="34235" height="1200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_override_rates (rateset)-DimDate (rateset attachment start date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="39" destid="1" sourceattachpoint="0" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="34305" y="0" />
+              <point x="34305" y="-400" />
+              <point x="770" y="-400" />
+              <point x="770" y="0" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-80" top="-700" logicalid="97" controlid="46" masterid="0" hint1="0" hint2="0" width="27975" height="1200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_override_rates (rateset)-DateDim (rateset attachment end date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="40" destid="1" sourceattachpoint="0" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="27495" y="0" />
+              <point x="27495" y="-400" />
+              <point x="220" y="-400" />
+              <point x="220" y="0" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1570" top="-700" logicalid="98" controlid="47" masterid="0" hint1="0" hint2="0" width="19515" height="1200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_override_rates (rateset)-DateDim (rateset override start date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="41" destid="1" sourceattachpoint="0" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="20685" y="0" />
+              <point x="20685" y="-400" />
+              <point x="1870" y="-400" />
+              <point x="1870" y="0" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1020" top="-700" logicalid="99" controlid="48" masterid="0" hint1="0" hint2="0" width="13255" height="1200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_override_rates (rateset)-DimDate (rateset override end date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="42" destid="1" sourceattachpoint="0" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13875" y="0" />
+              <point x="13875" y="-400" />
+              <point x="1320" y="-400" />
+              <point x="1320" y="0" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3815" top="4501" logicalid="100" controlid="49" masterid="0" hint1="0" hint2="0" width="6950" height="25926" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_override_rates (matter)-DimDate (matter override start date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="43" destid="16" sourceattachpoint="13" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10365" y="5000" />
+              <point x="10365" y="17563" />
+              <point x="4115" y="17563" />
+              <point x="4115" y="30127" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1727" top="3125" logicalid="101" controlid="50" masterid="0" hint1="0" hint2="0" width="2138" height="27302" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_override_rates (matter)-DimDate (matter override end date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="44" destid="16" sourceattachpoint="13" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2126" y="3624" />
+              <point x="2126" y="17563" />
+              <point x="3565" y="17563" />
+              <point x="3565" y="30127" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9438" top="12100" logicalid="102" controlid="51" masterid="0" hint1="0" hint2="0" width="11176" height="14748" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fees_summary-bill_group_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="8" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="20214" y="26348" />
+              <point x="20214" y="19374" />
+              <point x="9738" y="19374" />
+              <point x="9738" y="12400" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1983</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3757</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1429</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1376</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="6" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="197">
+            <Shape Id="Matter Override Rates Id" Expanded="true">
+              <Attributes>
+                <Attribute Id="Matter Override Rates Id" />
+                <Attribute Id="Matter Number" />
+                <Attribute Id="Rate Set Code" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Override Start Date" Expanded="true">
+              <Attributes>
+                <Attribute Id="Override Start Date" />
+              </Attributes>
+              <Position x="271" y="20" />
+            </Shape>
+            <Shape Id="Date 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date 1" />
+              </Attributes>
+              <Position x="522" y="20" />
+            </Shape>
+            <Shape Id="Period 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Period 1" />
+              </Attributes>
+              <Position x="773" y="20" />
+            </Shape>
+            <Shape Id="Quarter Name 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quarter Name 1" />
+              </Attributes>
+              <Position x="1025" y="20" />
+            </Shape>
+            <Shape Id="Year 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Year 1" />
+              </Attributes>
+              <Position x="1276" y="20" />
+            </Shape>
+            <Shape Id="Override End Date" Expanded="true">
+              <Attributes>
+                <Attribute Id="Override End Date" />
+              </Attributes>
+              <Position x="271" y="68" />
+            </Shape>
+            <Shape Id="Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date" />
+              </Attributes>
+              <Position x="522" y="68" />
+            </Shape>
+            <Shape Id="Period" Expanded="false">
+              <Attributes>
+                <Attribute Id="Period" />
+              </Attributes>
+              <Position x="773" y="68" />
+            </Shape>
+            <Shape Id="Quarter Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quarter Name" />
+              </Attributes>
+              <Position x="1025" y="68" />
+            </Shape>
+            <Shape Id="Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Year" />
+              </Attributes>
+              <Position x="1276" y="68" />
+            </Shape>
+            <Shape Id="Rateset Attachment End Date 1" Expanded="true">
+              <Attributes>
+                <Attribute Id="Rateset Attachment End Date 1" />
+              </Attributes>
+              <Position x="271" y="116" />
+            </Shape>
+            <Shape Id="Date 2" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date 2" />
+              </Attributes>
+              <Position x="522" y="116" />
+            </Shape>
+            <Shape Id="Period 2" Expanded="false">
+              <Attributes>
+                <Attribute Id="Period 2" />
+              </Attributes>
+              <Position x="773" y="116" />
+            </Shape>
+            <Shape Id="Quarter Name 2" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quarter Name 2" />
+              </Attributes>
+              <Position x="1025" y="116" />
+            </Shape>
+            <Shape Id="Year 2" Expanded="false">
+              <Attributes>
+                <Attribute Id="Year 2" />
+              </Attributes>
+              <Position x="1276" y="116" />
+            </Shape>
+            <Shape Id="Rateset Attachment Start Date 1" Expanded="true">
+              <Attributes>
+                <Attribute Id="Rateset Attachment Start Date 1" />
+              </Attributes>
+              <Position x="271" y="164" />
+            </Shape>
+            <Shape Id="Date 3" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date 3" />
+              </Attributes>
+              <Position x="522" y="164" />
+            </Shape>
+            <Shape Id="Period 3" Expanded="false">
+              <Attributes>
+                <Attribute Id="Period 3" />
+              </Attributes>
+              <Position x="773" y="164" />
+            </Shape>
+            <Shape Id="Quarter Name 3" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quarter Name 3" />
+              </Attributes>
+              <Position x="1025" y="164" />
+            </Shape>
+            <Shape Id="Year 3" Expanded="false">
+              <Attributes>
+                <Attribute Id="Year 3" />
+              </Attributes>
+              <Position x="1276" y="164" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="87108c99-ec12-40df-b041-4ed44f63019e">
+    <DataSourceViewID>Adr Rpt</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="107bf714-a0b8-4b18-b109-0a2f440a3358">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="2485b877-1e4e-4cd4-bf9a-cad1ede80963">
+      <ID>Matter Override Rates Id</ID>
+      <Name>Matter Override Rates Id</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>41267991</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b0249dc1-5b7c-43d5-937e-cecfef5219f0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="72df2f2f-2ec4-4975-910c-67463d381bf3">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>matter_override_rates_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="baba5188-22a2-4aa7-a2b3-3ddc3066632b">
+          <AttributeID>Matter Number</AttributeID>
+          <Name>Matter Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ca16fe9e-07b9-44ec-a174-5c6164f76cc2">
+          <AttributeID>Rate Set Code</AttributeID>
+          <Name>Rate Set Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="43e92af4-2cd2-4fb8-a51c-44d3b3d30ea4">
+          <AttributeID>Rateset Attachment Start Date 1</AttributeID>
+          <Name>Rate set Attachment Start Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="560e7408-b9f1-421e-8046-bf6783413754">
+          <AttributeID>Rateset Attachment End Date 1</AttributeID>
+          <Name>Rate set Attachment End Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="506b8b2c-55c1-4ece-9a40-6c41a7c62624">
+          <AttributeID>Override End Date</AttributeID>
+          <Name>Override End Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="232a65a3-8b76-4b7d-9c38-563477c533db">
+          <AttributeID>Override Start Date</AttributeID>
+          <Name>Override Start Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e1e56d7c-b171-47de-871b-3a2813fd2f31">
+          <AttributeID>Timekeeper Name</AttributeID>
+          <Name>Timekeeper Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="18cfd22e-3883-4b1e-a5dc-579bc34d8120">
+          <AttributeID>Timekeeper Code</AttributeID>
+          <Name>Timekeeper Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b19d607e-04a7-4717-9068-852d132e16ee">
+          <AttributeID>Rank</AttributeID>
+          <Name>Rank</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="83277d2c-2491-4926-881f-95a3d862107f">
+          <AttributeID>Rate Set Description</AttributeID>
+          <Name>Rate Set Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="53943fef-f14c-4191-b4ef-345d2cb16397">
+          <AttributeID>Rateset Override Rate</AttributeID>
+          <Name>Rateset Override Rate</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fb7d1995-0299-415e-a6fd-da32e563e580">
+      <ID>Rate Set Code</ID>
+      <Name>Rate Set Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4bb1e96a-ebce-49dd-ad81-e912affb5520">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="226fe05e-c26a-4a60-b011-bfe5d7fa284a">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>rate_set_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="64a4ec0d-9200-4544-8361-885a63220334">
+      <ID>Matter Number</ID>
+      <Name>Matter Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="151683c6-5781-492a-83e1-f634f250ca45">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29ce9b56-172e-4913-a772-680bec4ccb1d">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>matter_number</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="11b52ff0-424f-4ee3-bc6d-ef555dd70f6e">
+      <ID>Date</ID>
+      <Name>Date (override end date)</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="70e71cb2-a1d8-4149-a133-149acb8d0afb">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c1a88b15-9704-49a1-b3ce-6b4225a07ab6">
+            <TableID>rateset_x0020_override_x0020_end_x0020_date</TableID>
+            <ColumnID>Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="667921b3-7f82-450d-a34c-522bca555c5a">
+          <AttributeID>Period</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Period (override end date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <AttributeHierarchyDisplayFolder>Override End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f0c581c5-4243-41c4-846c-9ba732b47f76">
+      <ID>Quarter Name</ID>
+      <Name>Quarter Name (override end date)</Name>
+      <EstimatedCount>5200</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ac773956-ef7d-40fa-b203-1a982bf04d52">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3b856d5f-1479-411b-94ab-2fd2af299187">
+            <TableID>rateset_x0020_override_x0020_end_x0020_date</TableID>
+            <ColumnID>QuarterKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ec165377-aaec-4f92-9534-1c1cb30dbc10">
+          <AttributeID>Year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Year (override end date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Override End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="56ca7101-c878-4038-adcf-f59d216c480a">
+      <ID>Year</ID>
+      <Name>Year (override end date)</Name>
+      <EstimatedCount>1300</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="30e4721a-8e07-413e-9a3e-78ee5ec2becb">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="96dcbe53-6873-4ca4-b58a-50b9caef846c">
+            <TableID>rateset_x0020_override_x0020_end_x0020_date</TableID>
+            <ColumnID>Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>Override End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e1ce0414-4d69-4335-8dbb-199d65ed9049">
+      <ID>Period</ID>
+      <Name>Period (override end date)</Name>
+      <EstimatedCount>15600</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2a631432-e1f6-49ff-a7f5-8ef50315dd91">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="380ece68-665a-4da2-91fd-8996506e8a2e">
+            <TableID>rateset_x0020_override_x0020_end_x0020_date</TableID>
+            <ColumnID>Period</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0a20be37-65e5-4c56-a888-7b94e64e571d">
+          <AttributeID>Quarter Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Quarter Name (override end date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Override End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="55f1225e-8f5d-47ef-8936-a924e2f252b2">
+      <ID>Date 1</ID>
+      <Name>Date (override start date)</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ee76f0b0-e1bd-4343-884e-a9cbbb832d7b">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d70504f7-52fc-4749-a61f-18dc18317c04">
+            <TableID>DateDim_x0020__x0028_rateset_x0020_override_x0020_start_x0020_date_x0029_</TableID>
+            <ColumnID>Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f86d2a4f-85ec-4e10-9598-c93c79324c84">
+          <AttributeID>Period 1</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Period (override start date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <AttributeHierarchyDisplayFolder>Override Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e0a7efb4-333f-4781-af95-5089facfe148">
+      <ID>Quarter Name 1</ID>
+      <Name>Quarter Name (override start date)</Name>
+      <EstimatedCount>5200</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3abc8a02-1148-438a-8589-b6d2656d03ad">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ae88976-be91-46b1-bc64-6b5633355aaa">
+            <TableID>DateDim_x0020__x0028_rateset_x0020_override_x0020_start_x0020_date_x0029_</TableID>
+            <ColumnID>QuarterKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="4d73538d-4bb8-438e-8f2e-0d92bc1bb3c7">
+          <AttributeID>Year 1</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Year (override start date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Override Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="12baad43-1819-4fc6-b1c7-0fac7f622a72">
+      <ID>Year 1</ID>
+      <Name>Year (override start date)</Name>
+      <EstimatedCount>1300</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="70b9374c-f34f-4dc1-94f3-c6150e53a92d">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3558bee7-c0d5-4e62-be8a-d5d0d9d05211">
+            <TableID>DateDim_x0020__x0028_rateset_x0020_override_x0020_start_x0020_date_x0029_</TableID>
+            <ColumnID>Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>Override Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="55d30811-45a0-42d8-8c32-e774a54635af">
+      <ID>Period 1</ID>
+      <Name>Period (override start date)</Name>
+      <EstimatedCount>15600</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bdfe133b-dabc-411a-a74d-827c06724f49">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="31681753-148c-4d22-8c17-f3b67d43fbeb">
+            <TableID>DateDim_x0020__x0028_rateset_x0020_override_x0020_start_x0020_date_x0029_</TableID>
+            <ColumnID>Period</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bba92e3a-1b67-4d21-88da-e4fa1af30433">
+          <AttributeID>Quarter Name 1</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Quarter Name (override start date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Override Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d4d2396e-cfa2-428a-8fc1-31535cafaf53">
+      <ID>Date 2</ID>
+      <Name>Date (attachment end date)</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a7a6d047-eb92-4530-9732-b3132aa052fb">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea5ac3c1-faf3-48ba-9a81-97d65d578d72">
+            <TableID>DateDim_x0020__x0028_rateset_x0020_attachment_x0020_end_x0020_date_x0029_</TableID>
+            <ColumnID>Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="620d5de0-83cc-4b72-9d21-2c8e79164489">
+          <AttributeID>Period 2</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Period (attachment end date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b793ac3-c672-4256-8397-5af8fbbaf5d5">
+      <ID>Quarter Name 2</ID>
+      <Name>Quarter Name (attachment end date)</Name>
+      <EstimatedCount>5200</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="13c1f3cf-85db-4ae7-a215-a894557141fb">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42d6d529-7058-48d2-95bc-0a9c9e30d8b0">
+            <TableID>DateDim_x0020__x0028_rateset_x0020_attachment_x0020_end_x0020_date_x0029_</TableID>
+            <ColumnID>QuarterKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="676bbb24-c798-4efe-866c-5de8bb40c4cc">
+          <AttributeID>Year 2</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Year (attachment end date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="11b1b258-5060-4c77-b960-b7485983bc78">
+      <ID>Year 2</ID>
+      <Name>Year (attachment end date)</Name>
+      <EstimatedCount>1300</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="608822b3-f364-4cbf-aa29-9cf5cd3fee44">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2d196e4b-d0b0-4f7c-b782-1680b2e24991">
+            <TableID>DateDim_x0020__x0028_rateset_x0020_attachment_x0020_end_x0020_date_x0029_</TableID>
+            <ColumnID>Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0977717f-5064-497c-b99e-a2c692ab5123">
+      <ID>Period 2</ID>
+      <Name>Period (attachment end date)</Name>
+      <EstimatedCount>15600</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7a53b3ac-602e-46ea-b80d-2813bb44756f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c04c392-37bc-4bc0-9b44-88377f9934a4">
+            <TableID>DateDim_x0020__x0028_rateset_x0020_attachment_x0020_end_x0020_date_x0029_</TableID>
+            <ColumnID>Period</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="15faf77e-6f03-40a9-9ceb-651fc21703b4">
+          <AttributeID>Quarter Name 2</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Quarter Name (attachment end date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="29b7032f-1074-4613-8286-67bea8a0cec9">
+      <ID>Date 3</ID>
+      <Name>Date (attachment start date)</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="928a778c-fed7-4b08-80cf-03ad55967c6c">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b1f247b6-8db5-41fe-b54c-5fe28d17a3ae">
+            <TableID>terf</TableID>
+            <ColumnID>Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="38dd2b72-2ef1-4a4a-8ef2-d10b32ce5ba9">
+          <AttributeID>Period 3</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Period (attachment start date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4d0f2472-0830-4c72-b375-5399df2ae0de">
+      <ID>Quarter Name 3</ID>
+      <Name>Quarter Name (attachment start date)</Name>
+      <EstimatedCount>5200</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1379caeb-825d-4420-8092-780d3c8730c1">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4d3537da-2c8c-4be5-8675-b18583e2f14d">
+            <TableID>terf</TableID>
+            <ColumnID>QuarterKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="610f659f-02dd-44be-b1c6-9f9bca8110df">
+          <AttributeID>Year 3</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Year (attachment start date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="84ef2fd7-efaf-4330-bb28-fb6630711f7b">
+      <ID>Period 3</ID>
+      <Name>Period (attachment start date)</Name>
+      <EstimatedCount>15600</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8cfeb3dd-abe7-4c4b-8022-5cf7caaced51">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0ea0a4a3-b8c3-4af0-93d3-2144b28305ba">
+            <TableID>terf</TableID>
+            <ColumnID>Period</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a1976c1d-46b9-4241-99a2-fa6f025076f8">
+          <AttributeID>Quarter Name 3</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Quarter Name (attachment start date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1386c84c-2ed8-4677-90f5-2f66a6052f99">
+      <ID>Year 3</ID>
+      <Name>Year (attachment start date)</Name>
+      <EstimatedCount>1300</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="96764f09-1dac-40f6-b068-6ec8424a11c4">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="08e86b29-fdfc-4e5a-a603-110a39d12457">
+            <TableID>terf</TableID>
+            <ColumnID>Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f1afe316-0b41-4515-bac6-6dd28686e7ad">
+      <ID>Rateset Attachment Start Date 1</ID>
+      <Name>Rate set Attachment Start Date</Name>
+      <EstimatedCount>166</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fab64658-ab03-4df5-b13c-d7f0e95b2736">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3826c3b-ca25-4683-a2a0-b58bf8af3417">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>rateset_attachment_start_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e169ce17-ef2a-4a02-8ffe-2b58fd8da4a8">
+          <AttributeID>Date 3</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Date (attachment start date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ff211fdc-d75e-4a3d-ab64-79f25bcbd14d">
+      <ID>Rateset Attachment End Date 1</ID>
+      <Name>Rate set Attachment End Date</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cdbea812-a214-4abe-9a02-92c9b157c4b5">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ec1b4cb-8624-4080-ae1f-91547788c30f">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>rateset_attachment_end_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8d3a6e36-cec7-4444-988f-df387edec6f4">
+          <AttributeID>Date 2</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Date (attachment end date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Rateset Attachment End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9bc223c6-87ec-41cf-9dcf-4576b83a0f38">
+      <ID>Override End Date</ID>
+      <Name>Override End Date</Name>
+      <EstimatedCount>328</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d82d1639-ad60-44b3-9f68-19f78f90a53f">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9aaf3b88-15b1-4df2-8fb4-47686b2e189a">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>override_end_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f0d74fc1-4e23-4662-a57d-b1bbd58c03fb">
+          <AttributeID>Date</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Date (override end date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Override End Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0a156be3-7ae3-47af-b388-d95e6640d775">
+      <ID>Override Start Date</ID>
+      <Name>Override Start Date</Name>
+      <EstimatedCount>443</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="add68d7f-ace2-4ded-89a7-e65fc1637b21">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6afb2218-5ebf-4782-92e5-db61b8ccd184">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>override_start_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e7560b29-4f1e-4daf-b661-c8a1e7048f7f">
+          <AttributeID>Date 1</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Date (override start date)</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Override Start Date</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4bade84c-7446-4480-80d6-b27e8789b329">
+      <ID>Timekeeper Name</ID>
+      <Name>Timekeeper Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3e32cf46-8f79-4f02-97cb-80b866e8e2ff">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4cac9285-9620-49cd-b4c8-31ea5fd99e95">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>timekeeper_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="18344928-3849-4a78-8dbb-00b23d9669e7">
+      <ID>Timekeeper Code</ID>
+      <Name>Timekeeper Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4dab49c5-8902-4879-820d-7b8fa6b67e88">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e057ac84-ec5d-4153-a3a9-af6e2cf284ad">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>timekeeper_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e60ade4e-24d3-4f72-9be1-e547dad84daf">
+      <ID>Rank</ID>
+      <Name>Rank</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="630820e2-fa34-47dc-abf2-f7ddcecd7550">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ab281790-04f5-49f8-92a7-de17528f8e27">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>rank</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="83c98a9b-f38d-4e51-9f26-d136e73a856b">
+      <ID>Rate Set Description</ID>
+      <Name>Rate Set Description</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a8614eaa-3192-4e1f-9349-c51bbacf1eff">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2bf91017-f20c-4ecf-82cf-f22422494b64">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>rate_set_description</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="67707db8-9a67-4d97-972c-25eb5abf7252">
+      <ID>Rateset Override Rate</ID>
+      <Name>Rateset Override Rate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="954282f1-b913-4b88-8aeb-1b218c4f30d8">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5a9815c3-5eb9-48ba-922d-a8457f121fa7">
+            <TableID>dbo_matter_override_rates</TableID>
+            <ColumnID>override_rate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="17d1bba5-4f56-4911-8b1d-9bc3c9d6fb0d">
+      <ID>Hierarchy</ID>
+      <Name>Rateset Override End Date</Name>
+      <Levels>
+        <Level dwd:design-time-name="6ce44678-5e71-407f-b536-8c62785ae625">
+          <ID>Year (override end date)</ID>
+          <Name>Year (override end date)</Name>
+          <SourceAttributeID>Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9b44d7e0-a4ee-414a-bf24-3c6cdb1930f8">
+          <ID>Quarter Name (override end date)</ID>
+          <Name>Quarter Name (override end date)</Name>
+          <SourceAttributeID>Quarter Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8d5e118c-08ac-4dff-af93-b274806eb89e">
+          <ID>Period (override end date)</ID>
+          <Name>Period (override end date)</Name>
+          <SourceAttributeID>Period</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="473d2053-0b2e-4f35-9feb-fe597972aede">
+          <ID>Override End Date</ID>
+          <Name>Override End Date</Name>
+          <SourceAttributeID>Override End Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="e7234191-6b27-48ab-bfbf-570ad3525ca2">
+      <ID>Hierarchy 1</ID>
+      <Name>Rateset Override Start Date</Name>
+      <Levels>
+        <Level dwd:design-time-name="08c91a50-b124-48ff-b983-bbaebd07ff76">
+          <ID>Year (override start date)</ID>
+          <Name>Year (override start date)</Name>
+          <SourceAttributeID>Year 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e830d0cf-3b1a-400d-961c-301e184d69a2">
+          <ID>Quarter Name (override start date)</ID>
+          <Name>Quarter Name (override start date)</Name>
+          <SourceAttributeID>Quarter Name 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1b0f0b04-224a-4b5e-9eb1-b912825ab765">
+          <ID>Period (override start date)</ID>
+          <Name>Period (override start date)</Name>
+          <SourceAttributeID>Period 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="bc445eca-ad2b-47f2-8a6a-26745f477fd3">
+          <ID>Override Start Date</ID>
+          <Name>Override Start Date</Name>
+          <SourceAttributeID>Override Start Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="3c80e36d-0d49-49db-8167-8e9997b76eac">
+      <ID>Hierarchy 2</ID>
+      <Name>Rateset Attachment End Date</Name>
+      <Levels>
+        <Level dwd:design-time-name="1290cb8d-0fde-45d6-8d17-d80528432e33">
+          <ID>Year (attachment end date)</ID>
+          <Name>Year (attachment end date)</Name>
+          <SourceAttributeID>Year 2</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="550b3fc9-80d3-4b80-b12a-f2f7fc3a9143">
+          <ID>Quarter Name (attachment end date)</ID>
+          <Name>Quarter Name (attachment end date)</Name>
+          <SourceAttributeID>Quarter Name 2</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="76464b53-2695-456f-b84e-25a85aa9bae4">
+          <ID>Period (attachment end date)</ID>
+          <Name>Period (attachment end date)</Name>
+          <SourceAttributeID>Period 2</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="73850f93-fbc4-48b8-85d1-91218ae2b7f2">
+          <ID>Rate set Attachment End Date</ID>
+          <Name>Rate set Attachment End Date</Name>
+          <SourceAttributeID>Rateset Attachment End Date 1</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="5decebb3-2045-425f-af78-72fac9593249">
+      <ID>Hierarchy 3</ID>
+      <Name>Rateset Attachment Start Date</Name>
+      <Levels>
+        <Level dwd:design-time-name="e564716b-72e9-4070-935b-6e33e7b1c01c">
+          <ID>Year (attachment start date)</ID>
+          <Name>Year (attachment start date)</Name>
+          <SourceAttributeID>Year 3</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2778a9f6-4eb3-4684-a5bb-3676c627d553">
+          <ID>Quarter Name (attachment start date)</ID>
+          <Name>Quarter Name (attachment start date)</Name>
+          <SourceAttributeID>Quarter Name 3</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="33a4d086-e6b2-4741-9263-0137bf399fd0">
+          <ID>Period (attachment start date)</ID>
+          <Name>Period (attachment start date)</Name>
+          <SourceAttributeID>Period 3</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7d28aaba-f2cc-4a9f-9071-f4d7e50e976f">
+          <ID>Rate set Attachment Start Date</ID>
+          <Name>Rate set Attachment Start Date</Name>
+          <SourceAttributeID>Rateset Attachment Start Date 1</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

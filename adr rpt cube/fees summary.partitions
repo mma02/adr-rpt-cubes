@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="72d6e6b6-b5c3-4240-a539-d1454d766dce" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>fees summary</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fees Summary</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4a500452-a152-4d7d-8147-09050eb07b6d">
+          <ID>Fees Summary</ID>
+          <Name>Fees Summary</Name>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ee5d0b6a-eadc-4052-9c7a-d5e703a65b55">
+            <DataSourceViewID>Adr Rpt</DataSourceViewID>
+            <TableID>dbo_fees_summary</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Tran Detail</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c9bc5840-7b90-4c67-924e-15f017297a17">
+          <ID>Tran Detail</ID>
+          <Name>Tran Detail</Name>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bdcab6b0-7a04-40fd-8deb-e2cad2cb5015">
+            <DataSourceViewID>Adr Rpt</DataSourceViewID>
+            <TableID>dbo_tran_detail</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fee Write Off Detail</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a587f5e9-bcdb-4d0d-b91e-05ea2f4723f9">
+          <ID>Fee Write Off Detail</ID>
+          <Name>Fee Write Off Detail</Name>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3be58320-78b2-4324-ac03-1bad6edff288">
+            <DataSourceViewID>Adr Rpt</DataSourceViewID>
+            <TableID>dbo_fee_write_off_detail</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Aged Ar</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d95883e0-699b-420d-bac7-c5c5af720107">
+          <ID>Aged Ar</ID>
+          <Name>Aged Ar</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fa43015d-9973-4772-878d-555d128ccae7">
+            <DataSourceViewID>Adr Rpt</DataSourceViewID>
+            <TableID>dbo_aged_ar</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

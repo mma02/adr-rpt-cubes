@@ -1,0 +1,68 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c957dcdb-8090-4ae5-81d7-dd5cd6e2cc4c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Override Rates</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Matter Override Rates rateset</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="106fddac-52db-4613-858b-f8a1dd5b1fe4">
+          <ID>Matter Override Rates rateset</ID>
+          <Name>Matter Override Rates rateset</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="01b6214e-bb84-4c12-8664-3b75edb7798e">
+            <DataSourceViewID>Adr Rpt</DataSourceViewID>
+            <TableID>dbo_matter_override_rates</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>41267991</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Matter Override Rates matter</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="6e38871f-4ea5-4cad-864d-3637b539b719">
+          <ID>Matter Override Rates matter</ID>
+          <Name>Matter Override Rates matter</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="56bc91c5-3736-4598-9b2f-2fae885b6152">
+            <DataSourceViewID>Adr Rpt</DataSourceViewID>
+            <TableID>dbo_matter_override_rates1</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>314142</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Matter Detail</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="9ed2161e-e8ce-4193-8647-70197cc33987">
+          <ID>Matter Detail</ID>
+          <Name>Matter Detail</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a91789d7-9f87-442c-b370-a061639327b9">
+            <DataSourceViewID>Adr Rpt</DataSourceViewID>
+            <TableID>dbo_matter_detail</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>326517</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

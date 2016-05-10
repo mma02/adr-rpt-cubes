@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "adr rpt cube", "adr rpt cube\adr rpt cube.dwproj", "{037BAF83-5E98-46C1-BAAA-0D9432B66BBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{037BAF83-5E98-46C1-BAAA-0D9432B66BBA}.Development|Default.ActiveCfg = Development
+		{037BAF83-5E98-46C1-BAAA-0D9432B66BBA}.Development|Default.Build.0 = Development
+		{037BAF83-5E98-46C1-BAAA-0D9432B66BBA}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
