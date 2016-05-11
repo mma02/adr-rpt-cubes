@@ -57,6 +57,10 @@
       <Name>Matter Override Rates rateset.dim</Name>
       <FullPath>Matter Override Rates rateset.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Bill Group Detail.dim</Name>
+      <FullPath>Bill Group Detail.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

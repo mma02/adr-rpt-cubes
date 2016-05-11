@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="46" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5000" scrolltop="-1508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23733" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="45" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5000" scrolltop="-1508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23733" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -341,6 +341,26 @@
               <point x="1076" y="14800" />
             </connector>
           </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3675" top="12553" logicalid="44" controlid="23" masterid="0" hint1="0" hint2="0" width="3847" height="2847" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fees_summary-bill_group_detail1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="19" destid="5" sourceattachpoint="26" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7222" y="12952" />
+              <point x="5599" y="12952" />
+              <point x="5599" y="15100" />
+              <point x="3975" y="15100" />
+            </connector>
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -643,6 +663,27 @@
         </Hierarchy>
       </Hierarchies>
     </Dimension>
+    <Dimension dwd:design-time-name="63fc337f-3e05-4876-aa0f-a446ae093c9a">
+      <ID>Bill Group Detail</ID>
+      <Name>Bill Group Detail</Name>
+      <DimensionID>Bill Group Detail</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="15772986-05ad-494e-95d1-d486b826059e">
+          <AttributeID>Bill Grp Uno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be8f2d7d-45ba-4800-9023-4b6fba44a232">
+          <AttributeID>Address</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52789847-139f-4c86-bee8-1d95f509784c">
+          <AttributeID>Country Code</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e4e18e1c-3920-40ba-a41e-5dcf60d56421">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
   </Dimensions>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="290b2c54-334d-490f-a8e4-09da8623811e">
@@ -886,6 +927,25 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="02bdda92-486c-4237-8971-6b06a23a49d4">
                     <TableID>dbo_fees_summary</TableID>
                     <ColumnID>matter_number</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ae965709-9209-49e1-8bb7-40832b5fa2c1">
+          <CubeDimensionID>Bill Group Detail</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0d4008a0-084d-43a8-9b8f-f652ca625582">
+              <AttributeID>Bill Grp Uno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="645ef413-aeea-4da5-86cc-8856031d578b">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="60189b52-63be-4423-b796-e8571df9091b">
+                    <TableID>dbo_fees_summary</TableID>
+                    <ColumnID>bill_grp_uno</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>

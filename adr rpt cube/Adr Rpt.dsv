@@ -31,7 +31,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="106" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5830" scrolltop="-1187" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24262" y="12938" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="105" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="9302" scrolltop="-2381" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24262" y="12938" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -848,12 +848,32 @@
                     <point x="26471" y="3499" />
                   </connector>
                 </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10731" top="2572" logicalid="104" controlid="53" masterid="0" hint1="0" hint2="0" width="16040" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[fees_summary-bill_group_detail1]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="21" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11031" y="2971" />
+                    <point x="18751" y="2971" />
+                    <point x="18751" y="2949" />
+                    <point x="26471" y="2949" />
+                  </connector>
+                </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>5830</DiagramViewPortLeft>
-            <DiagramViewPortTop>-1187</DiagramViewPortTop>
+            <DiagramViewPortLeft>9302</DiagramViewPortLeft>
+            <DiagramViewPortTop>-2381</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
@@ -999,6 +1019,7 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="bill_grp_uno" msprop:DbColumnName="bill_grp_uno" msprop:design-time-name="bb11fac8-cff1-4810-a498-5e15191223c8" type="xs:int" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -1214,6 +1235,7 @@
                   <xs:element name="discount_level" msprop:design-time-name="5c4ef57b-0a02-44d9-aeaa-b22cb537cb2f" msprop:DbColumnName="discount_level" msprop:FriendlyName="discount_level" type="xs:double" minOccurs="0" />
                   <xs:element name="base_amt" msprop:design-time-name="52091b2e-f03c-40b8-830f-beacaa518777" msprop:DbColumnName="base_amt" msprop:FriendlyName="base_amt" type="xs:decimal" minOccurs="0" />
                   <xs:element name="std_amt" msprop:design-time-name="ca95f1fa-62c8-40f0-a687-8cd3cd4dc0ea" msprop:DbColumnName="std_amt" msprop:FriendlyName="std_amt" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="bill_grp_uno" msprop:DbColumnName="bill_grp_uno" msprop:design-time-name="c4fd2b94-80f0-4023-85c4-7ef3ae84d3bd" type="xs:int" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -3152,7 +3174,7 @@
         </xs:unique>
         <xs:unique name="dbo_bill_group_detail_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
           <xs:selector xpath=".//dbo_bill_group_detail" />
-          <xs:field xpath="bill_group_code" />
+          <xs:field xpath="bill_grp_uno" />
         </xs:unique>
         <xs:unique name="dbo_client_detail_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
           <xs:selector xpath=".//dbo_client_detail" />
@@ -3240,6 +3262,7 @@
           <msdata:Relationship name="matter_override_rates_x0020__x0028_matter_x0029_-DimDate_x0020__x0028_matter_x0020_override_x0020_start_x0020_date_x0029_" msdata:parent="DimDate_x0020__x0028_matter_x0020_override_x0020_start_x0020_date_x0029_" msdata:child="dbo_matter_override_rates1" msdata:parentkey="Date" msdata:childkey="override_start_date" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="matter_override_rates_x0020__x0028_matter_x0029_-DimDate_x0020__x0028_matter_x0020_override_x0020_end_x0020_date_x0029_" msdata:parent="DimDate_x0020__x0028_matter_x0020_override_x0020_end_x0020_date_x0029_" msdata:child="dbo_matter_override_rates1" msdata:parentkey="Date" msdata:childkey="override_end_date" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="fees_summary-bill_group_detail" msdata:parent="dbo_bill_group_detail" msdata:child="dbo_fees_summary" msdata:parentkey="bill_group_code" msdata:childkey="billgrp_code" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="fees_summary-bill_group_detail1" msdata:parent="dbo_bill_group_detail" msdata:child="dbo_fees_summary" msdata:parentkey="bill_grp_uno" msdata:childkey="bill_grp_uno" msprop:IsLogical="True" msprop:Description="" />
         </xs:appinfo>
       </xs:annotation>
     </xs:schema>
