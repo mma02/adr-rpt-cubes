@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="104" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1983" scrolltop="-3757" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8652" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="105" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1983" scrolltop="-3757" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8652" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -797,7 +797,7 @@
               <point x="3565" y="30127" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="9438" top="12100" logicalid="102" controlid="51" masterid="0" hint1="0" hint2="0" width="11176" height="14748" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8888" top="12100" logicalid="102" controlid="51" masterid="0" hint1="0" hint2="0" width="12276" height="14748" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -806,6 +806,26 @@
             <layoutobject>
               <ddsxmlobj>
                 <property name="LogicalObject" value="dataSet.Relations[fees_summary-bill_group_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="8" sourceattachpoint="2" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="20764" y="26348" />
+              <point x="20764" y="19374" />
+              <point x="9188" y="19374" />
+              <point x="9188" y="12400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9438" top="12100" logicalid="104" controlid="53" masterid="0" hint1="0" hint2="0" width="11176" height="14748" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fees_summary-bill_group_detail1]" vartype="8" />
                 <property name="Virtual" value="0" vartype="11" />
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
@@ -861,7 +881,12 @@
               <Attributes>
                 <Attribute Id="Matter Override Rates Id" />
                 <Attribute Id="Matter Number" />
+                <Attribute Id="Rank" />
                 <Attribute Id="Rate Set Code" />
+                <Attribute Id="Rate Set Description" />
+                <Attribute Id="Rateset Override Rate" />
+                <Attribute Id="Timekeeper Code" />
+                <Attribute Id="Timekeeper Name" />
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
@@ -1100,7 +1125,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="11b52ff0-424f-4ee3-bc6d-ef555dd70f6e">
       <ID>Date</ID>
-      <Name>Date (override end date)</Name>
+      <Name>Date - override end date</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="70e71cb2-a1d8-4149-a133-149acb8d0afb">
           <DataType>Date</DataType>
@@ -1114,7 +1139,7 @@
         <AttributeRelationship dwd:design-time-name="667921b3-7f82-450d-a34c-522bca555c5a">
           <AttributeID>Period</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Period (override end date)</Name>
+          <Name>Period - override end date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -1124,7 +1149,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="f0c581c5-4243-41c4-846c-9ba732b47f76">
       <ID>Quarter Name</ID>
-      <Name>Quarter Name (override end date)</Name>
+      <Name>Quarter Name - override end date</Name>
       <EstimatedCount>5200</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="ac773956-ef7d-40fa-b203-1a982bf04d52">
@@ -1140,7 +1165,7 @@
         <AttributeRelationship dwd:design-time-name="ec165377-aaec-4f92-9534-1c1cb30dbc10">
           <AttributeID>Year</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Year (override end date)</Name>
+          <Name>Year - override end date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Override End Date</AttributeHierarchyDisplayFolder>
@@ -1149,7 +1174,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="56ca7101-c878-4038-adcf-f59d216c480a">
       <ID>Year</ID>
-      <Name>Year (override end date)</Name>
+      <Name>Year - override end date</Name>
       <EstimatedCount>1300</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="30e4721a-8e07-413e-9a3e-78ee5ec2becb">
@@ -1167,7 +1192,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="e1ce0414-4d69-4335-8dbb-199d65ed9049">
       <ID>Period</ID>
-      <Name>Period (override end date)</Name>
+      <Name>Period - override end date</Name>
       <EstimatedCount>15600</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="2a631432-e1f6-49ff-a7f5-8ef50315dd91">
@@ -1182,7 +1207,7 @@
         <AttributeRelationship dwd:design-time-name="0a20be37-65e5-4c56-a888-7b94e64e571d">
           <AttributeID>Quarter Name</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Quarter Name (override end date)</Name>
+          <Name>Quarter Name - override end date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Override End Date</AttributeHierarchyDisplayFolder>
@@ -1191,7 +1216,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="55f1225e-8f5d-47ef-8936-a924e2f252b2">
       <ID>Date 1</ID>
-      <Name>Date (override start date)</Name>
+      <Name>Date - override start date</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="ee76f0b0-e1bd-4343-884e-a9cbbb832d7b">
           <DataType>Date</DataType>
@@ -1205,7 +1230,7 @@
         <AttributeRelationship dwd:design-time-name="f86d2a4f-85ec-4e10-9598-c93c79324c84">
           <AttributeID>Period 1</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Period (override start date)</Name>
+          <Name>Period - override start date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -1215,7 +1240,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="e0a7efb4-333f-4781-af95-5089facfe148">
       <ID>Quarter Name 1</ID>
-      <Name>Quarter Name (override start date)</Name>
+      <Name>Quarter Name - override start date</Name>
       <EstimatedCount>5200</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="3abc8a02-1148-438a-8589-b6d2656d03ad">
@@ -1231,7 +1256,7 @@
         <AttributeRelationship dwd:design-time-name="4d73538d-4bb8-438e-8f2e-0d92bc1bb3c7">
           <AttributeID>Year 1</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Year (override start date)</Name>
+          <Name>Year - override start date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Override Start Date</AttributeHierarchyDisplayFolder>
@@ -1240,7 +1265,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="12baad43-1819-4fc6-b1c7-0fac7f622a72">
       <ID>Year 1</ID>
-      <Name>Year (override start date)</Name>
+      <Name>Year - override start date</Name>
       <EstimatedCount>1300</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="70b9374c-f34f-4dc1-94f3-c6150e53a92d">
@@ -1258,7 +1283,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="55d30811-45a0-42d8-8c32-e774a54635af">
       <ID>Period 1</ID>
-      <Name>Period (override start date)</Name>
+      <Name>Period - override start date</Name>
       <EstimatedCount>15600</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="bdfe133b-dabc-411a-a74d-827c06724f49">
@@ -1273,7 +1298,7 @@
         <AttributeRelationship dwd:design-time-name="bba92e3a-1b67-4d21-88da-e4fa1af30433">
           <AttributeID>Quarter Name 1</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Quarter Name (override start date)</Name>
+          <Name>Quarter Name - override start date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Override Start Date</AttributeHierarchyDisplayFolder>
@@ -1282,7 +1307,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="d4d2396e-cfa2-428a-8fc1-31535cafaf53">
       <ID>Date 2</ID>
-      <Name>Date (attachment end date)</Name>
+      <Name>Date - attachment end date</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="a7a6d047-eb92-4530-9732-b3132aa052fb">
           <DataType>Date</DataType>
@@ -1296,7 +1321,7 @@
         <AttributeRelationship dwd:design-time-name="620d5de0-83cc-4b72-9d21-2c8e79164489">
           <AttributeID>Period 2</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Period (attachment end date)</Name>
+          <Name>Period - attachment end date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -1306,7 +1331,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="5b793ac3-c672-4256-8397-5af8fbbaf5d5">
       <ID>Quarter Name 2</ID>
-      <Name>Quarter Name (attachment end date)</Name>
+      <Name>Quarter Name - attachment end date</Name>
       <EstimatedCount>5200</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="13c1f3cf-85db-4ae7-a215-a894557141fb">
@@ -1322,7 +1347,7 @@
         <AttributeRelationship dwd:design-time-name="676bbb24-c798-4efe-866c-5de8bb40c4cc">
           <AttributeID>Year 2</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Year (attachment end date)</Name>
+          <Name>Year - attachment end date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Rateset Attachment End Date</AttributeHierarchyDisplayFolder>
@@ -1331,7 +1356,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="11b1b258-5060-4c77-b960-b7485983bc78">
       <ID>Year 2</ID>
-      <Name>Year (attachment end date)</Name>
+      <Name>Year - attachment end date</Name>
       <EstimatedCount>1300</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="608822b3-f364-4cbf-aa29-9cf5cd3fee44">
@@ -1349,7 +1374,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="0977717f-5064-497c-b99e-a2c692ab5123">
       <ID>Period 2</ID>
-      <Name>Period (attachment end date)</Name>
+      <Name>Period - attachment end date</Name>
       <EstimatedCount>15600</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="7a53b3ac-602e-46ea-b80d-2813bb44756f">
@@ -1364,7 +1389,7 @@
         <AttributeRelationship dwd:design-time-name="15faf77e-6f03-40a9-9ceb-651fc21703b4">
           <AttributeID>Quarter Name 2</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Quarter Name (attachment end date)</Name>
+          <Name>Quarter Name - attachment end date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Rateset Attachment End Date</AttributeHierarchyDisplayFolder>
@@ -1373,7 +1398,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="29b7032f-1074-4613-8286-67bea8a0cec9">
       <ID>Date 3</ID>
-      <Name>Date (attachment start date)</Name>
+      <Name>Date - attachment start date</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="928a778c-fed7-4b08-80cf-03ad55967c6c">
           <DataType>Date</DataType>
@@ -1387,7 +1412,7 @@
         <AttributeRelationship dwd:design-time-name="38dd2b72-2ef1-4a4a-8ef2-d10b32ce5ba9">
           <AttributeID>Period 3</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Period (attachment start date)</Name>
+          <Name>Period - attachment start date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -1397,7 +1422,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="4d0f2472-0830-4c72-b375-5399df2ae0de">
       <ID>Quarter Name 3</ID>
-      <Name>Quarter Name (attachment start date)</Name>
+      <Name>Quarter Name - attachment start date</Name>
       <EstimatedCount>5200</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="1379caeb-825d-4420-8092-780d3c8730c1">
@@ -1413,7 +1438,7 @@
         <AttributeRelationship dwd:design-time-name="610f659f-02dd-44be-b1c6-9f9bca8110df">
           <AttributeID>Year 3</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Year (attachment start date)</Name>
+          <Name>Year - attachment start date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Rateset Attachment Start Date</AttributeHierarchyDisplayFolder>
@@ -1422,7 +1447,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="84ef2fd7-efaf-4330-bb28-fb6630711f7b">
       <ID>Period 3</ID>
-      <Name>Period (attachment start date)</Name>
+      <Name>Period - attachment start date</Name>
       <EstimatedCount>15600</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="8cfeb3dd-abe7-4c4b-8022-5cf7caaced51">
@@ -1437,7 +1462,7 @@
         <AttributeRelationship dwd:design-time-name="a1976c1d-46b9-4241-99a2-fa6f025076f8">
           <AttributeID>Quarter Name 3</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Quarter Name (attachment start date)</Name>
+          <Name>Quarter Name - attachment start date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Rateset Attachment Start Date</AttributeHierarchyDisplayFolder>
@@ -1446,7 +1471,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="1386c84c-2ed8-4677-90f5-2f66a6052f99">
       <ID>Year 3</ID>
-      <Name>Year (attachment start date)</Name>
+      <Name>Year - attachment start date</Name>
       <EstimatedCount>1300</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="96764f09-1dac-40f6-b068-6ec8424a11c4">
@@ -1479,7 +1504,7 @@
         <AttributeRelationship dwd:design-time-name="e169ce17-ef2a-4a02-8ffe-2b58fd8da4a8">
           <AttributeID>Date 3</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Date (attachment start date)</Name>
+          <Name>Date - attachment start date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Rateset Attachment Start Date</AttributeHierarchyDisplayFolder>
@@ -1503,7 +1528,7 @@
         <AttributeRelationship dwd:design-time-name="8d3a6e36-cec7-4444-988f-df387edec6f4">
           <AttributeID>Date 2</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Date (attachment end date)</Name>
+          <Name>Date - attachment end date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Rateset Attachment End Date</AttributeHierarchyDisplayFolder>
@@ -1527,7 +1552,7 @@
         <AttributeRelationship dwd:design-time-name="f0d74fc1-4e23-4662-a57d-b1bbd58c03fb">
           <AttributeID>Date</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Date (override end date)</Name>
+          <Name>Date - override end date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Override End Date</AttributeHierarchyDisplayFolder>
@@ -1551,7 +1576,7 @@
         <AttributeRelationship dwd:design-time-name="e7560b29-4f1e-4daf-b661-c8a1e7048f7f">
           <AttributeID>Date 1</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Date (override start date)</Name>
+          <Name>Date - override start date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Override Start Date</AttributeHierarchyDisplayFolder>
@@ -1643,19 +1668,19 @@
       <ID>Hierarchy</ID>
       <Name>Rateset Override End Date</Name>
       <Levels>
-        <Level dwd:design-time-name="6ce44678-5e71-407f-b536-8c62785ae625">
-          <ID>Year (override end date)</ID>
-          <Name>Year (override end date)</Name>
+        <Level dwd:design-time-name="a1566279-35f7-4111-8c14-12f7a6b561da">
+          <ID>Year - override end date</ID>
+          <Name>Year - override end date</Name>
           <SourceAttributeID>Year</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="9b44d7e0-a4ee-414a-bf24-3c6cdb1930f8">
-          <ID>Quarter Name (override end date)</ID>
-          <Name>Quarter Name (override end date)</Name>
+        <Level dwd:design-time-name="9a0b7d6d-e798-455b-a4d7-e5a938b7b6c7">
+          <ID>Quarter Name - override end date</ID>
+          <Name>Quarter Name - override end date</Name>
           <SourceAttributeID>Quarter Name</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="8d5e118c-08ac-4dff-af93-b274806eb89e">
-          <ID>Period (override end date)</ID>
-          <Name>Period (override end date)</Name>
+        <Level dwd:design-time-name="5fe47e74-693f-4331-bc5f-a210570aec10">
+          <ID>Period - override end date</ID>
+          <Name>Period - override end date</Name>
           <SourceAttributeID>Period</SourceAttributeID>
         </Level>
         <Level dwd:design-time-name="473d2053-0b2e-4f35-9feb-fe597972aede">
@@ -1669,19 +1694,19 @@
       <ID>Hierarchy 1</ID>
       <Name>Rateset Override Start Date</Name>
       <Levels>
-        <Level dwd:design-time-name="08c91a50-b124-48ff-b983-bbaebd07ff76">
-          <ID>Year (override start date)</ID>
-          <Name>Year (override start date)</Name>
+        <Level dwd:design-time-name="935b0980-97af-4543-8c57-ce8cc6e43b9b">
+          <ID>Year - override start date</ID>
+          <Name>Year - override start date</Name>
           <SourceAttributeID>Year 1</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="e830d0cf-3b1a-400d-961c-301e184d69a2">
-          <ID>Quarter Name (override start date)</ID>
-          <Name>Quarter Name (override start date)</Name>
+        <Level dwd:design-time-name="8b468572-6cdd-4a12-bcf4-81be92e2aa8d">
+          <ID>Quarter Name - override start date</ID>
+          <Name>Quarter Name - override start date</Name>
           <SourceAttributeID>Quarter Name 1</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="1b0f0b04-224a-4b5e-9eb1-b912825ab765">
-          <ID>Period (override start date)</ID>
-          <Name>Period (override start date)</Name>
+        <Level dwd:design-time-name="0408a377-4003-447f-8afb-2c4f4723f5f6">
+          <ID>Period - override start date</ID>
+          <Name>Period - override start date</Name>
           <SourceAttributeID>Period 1</SourceAttributeID>
         </Level>
         <Level dwd:design-time-name="bc445eca-ad2b-47f2-8a6a-26745f477fd3">
@@ -1695,19 +1720,19 @@
       <ID>Hierarchy 2</ID>
       <Name>Rateset Attachment End Date</Name>
       <Levels>
-        <Level dwd:design-time-name="1290cb8d-0fde-45d6-8d17-d80528432e33">
-          <ID>Year (attachment end date)</ID>
-          <Name>Year (attachment end date)</Name>
+        <Level dwd:design-time-name="4dbafa2a-075f-4926-b92a-b40c1c0a9376">
+          <ID>Year - attachment end date</ID>
+          <Name>Year - attachment end date</Name>
           <SourceAttributeID>Year 2</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="550b3fc9-80d3-4b80-b12a-f2f7fc3a9143">
-          <ID>Quarter Name (attachment end date)</ID>
-          <Name>Quarter Name (attachment end date)</Name>
+        <Level dwd:design-time-name="8bed6795-6549-4a37-ac1a-cec0195c6870">
+          <ID>Quarter Name - attachment end date</ID>
+          <Name>Quarter Name - attachment end date</Name>
           <SourceAttributeID>Quarter Name 2</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="76464b53-2695-456f-b84e-25a85aa9bae4">
-          <ID>Period (attachment end date)</ID>
-          <Name>Period (attachment end date)</Name>
+        <Level dwd:design-time-name="b57398f7-475a-49ef-a0e5-cd8a91ca0eb3">
+          <ID>Period - attachment end date</ID>
+          <Name>Period - attachment end date</Name>
           <SourceAttributeID>Period 2</SourceAttributeID>
         </Level>
         <Level dwd:design-time-name="73850f93-fbc4-48b8-85d1-91218ae2b7f2">
@@ -1721,19 +1746,19 @@
       <ID>Hierarchy 3</ID>
       <Name>Rateset Attachment Start Date</Name>
       <Levels>
-        <Level dwd:design-time-name="e564716b-72e9-4070-935b-6e33e7b1c01c">
-          <ID>Year (attachment start date)</ID>
-          <Name>Year (attachment start date)</Name>
+        <Level dwd:design-time-name="93647984-155c-4d0e-a67e-7036ab003b1b">
+          <ID>Year - attachment start date</ID>
+          <Name>Year - attachment start date</Name>
           <SourceAttributeID>Year 3</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="2778a9f6-4eb3-4684-a5bb-3676c627d553">
-          <ID>Quarter Name (attachment start date)</ID>
-          <Name>Quarter Name (attachment start date)</Name>
+        <Level dwd:design-time-name="2a4888ca-3eaa-45b1-a099-f4cfe59c4854">
+          <ID>Quarter Name - attachment start date</ID>
+          <Name>Quarter Name - attachment start date</Name>
           <SourceAttributeID>Quarter Name 3</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="33a4d086-e6b2-4741-9263-0137bf399fd0">
-          <ID>Period (attachment start date)</ID>
-          <Name>Period (attachment start date)</Name>
+        <Level dwd:design-time-name="eca998df-ac18-4c4b-98c4-f351a900795a">
+          <ID>Period - attachment start date</ID>
+          <Name>Period - attachment start date</Name>
           <SourceAttributeID>Period 3</SourceAttributeID>
         </Level>
         <Level dwd:design-time-name="7d28aaba-f2cc-4a9f-9071-f4d7e50e976f">

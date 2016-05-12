@@ -938,6 +938,7 @@
         </Dimension>
       </Dimensions>
       <Partitions />
+      <AggregationDesigns />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="fbe28e41-cf7d-4315-96a7-a4a0b3e2a7d8">
       <ID>Matter Override Rates matter</ID>

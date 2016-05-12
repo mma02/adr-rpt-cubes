@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-828" scrolltop="3140" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="8652" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-828" scrolltop="3140" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="8652" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="client_detail" left="285" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4180" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="client_detail" left="285" top="0" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="4180" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000a00005410000088130000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter open date)" left="7130" top="7400" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="5468" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter open date)" left="7130" top="7400" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="5468" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000a00005c15000088130000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter closed date)" left="470" top="15011" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="5503" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter closed date)" left="470" top="15011" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="5503" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000a00007f15000088130000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="matter_detail" left="20" top="7400" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="matter_detail" left="20" top="7400" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000a00006612000088130000" />
             </control>
@@ -63,7 +63,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="1976" top="4501" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1976" top="4501" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -81,7 +81,7 @@
               <point x="2375" y="7400" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4430" top="9501" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4430" top="9501" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -99,7 +99,7 @@
               <point x="4730" y="9900" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="622" top="12100" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="953" height="3411" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="622" top="12100" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="953" height="3411" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -167,12 +167,15 @@
                 <Attribute Id="Client Code" />
                 <Attribute Id="Default Rate Level" />
                 <Attribute Id="External Ebilling Number" />
+                <Attribute Id="Has Matter Override" />
+                <Attribute Id="Has Rateset Override" />
                 <Attribute Id="Matter Billing Atty Code" />
                 <Attribute Id="Matter Billing Atty Name" />
                 <Attribute Id="Matter Name" />
                 <Attribute Id="Matter Resp Atty Code" />
                 <Attribute Id="Matter Resp Atty Name" />
                 <Attribute Id="Matter Short Name" />
+                <Attribute Id="Status Desc" />
                 <Attribute Id="Previous Rate Level" />
                 <Attribute Id="Variable Rate" />
               </Attributes>
@@ -386,7 +389,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="37a129c4-9a66-4ce9-a330-d0737565c359">
       <ID>Date</ID>
-      <Name>Date (Open Date)</Name>
+      <Name>Date - Open Date</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="dd45b380-0ddf-4321-8807-cd76827775ec">
           <DataType>Date</DataType>
@@ -401,7 +404,7 @@
         <AttributeRelationship dwd:design-time-name="2c643e53-d797-4a07-8f70-db34bcae960c">
           <AttributeID>Period</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Period (Open Date)</Name>
+          <Name>Period - Open Date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -451,7 +454,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="158109b8-605f-44bb-bf7d-02ee7f889e6e">
       <ID>Period</ID>
-      <Name>Period (Open Date)</Name>
+      <Name>Period - Open Date</Name>
       <EstimatedCount>15600</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="4ceafb16-3f55-4450-a909-a49667fec9ba">
@@ -466,7 +469,7 @@
         <AttributeRelationship dwd:design-time-name="28a69a9f-ab88-4d6c-b7d9-4319e7774ec7">
           <AttributeID>Quarter Name</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Quarter Name (Open Date)</Name>
+          <Name>Quarter Name - Open Date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Matter Open Date</AttributeHierarchyDisplayFolder>
@@ -475,7 +478,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="209bd0d2-e0d0-4d4c-856c-8c021241b6e0">
       <ID>Year</ID>
-      <Name>Year (Open Date)</Name>
+      <Name>Year - Open Date</Name>
       <EstimatedCount>1300</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="cb89d4f7-f814-436c-9978-93f0ece1d1c6">
@@ -493,7 +496,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="ebd0afe4-6b70-49ab-a6ab-f8f18fc4de3f">
       <ID>Quarter Name</ID>
-      <Name>Quarter Name (Open Date)</Name>
+      <Name>Quarter Name - Open Date</Name>
       <EstimatedCount>5200</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="10651738-bdbf-4854-b385-7d0874a31106">
@@ -517,7 +520,7 @@
         <AttributeRelationship dwd:design-time-name="79618578-56b1-47e9-9c53-4fbe4677118a">
           <AttributeID>Year</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Year (Open Date)</Name>
+          <Name>Year - Open Date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Matter Open Date</AttributeHierarchyDisplayFolder>
@@ -541,7 +544,7 @@
         <AttributeRelationship dwd:design-time-name="899755c8-68d2-46d7-a0a2-4353a45b52de">
           <AttributeID>Date</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Date (Open Date)</Name>
+          <Name>Date - Open Date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Matter Open Date</AttributeHierarchyDisplayFolder>
@@ -565,7 +568,7 @@
         <AttributeRelationship dwd:design-time-name="d7623568-0463-4787-acf6-f60a7b078cce">
           <AttributeID>Date 1</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Date (Close Date)</Name>
+          <Name>Date - Close Date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <MembersWithData>NonLeafDataHidden</MembersWithData>
@@ -575,7 +578,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="055f4b2d-7665-4ef5-8787-e5f563aed5f9">
       <ID>Date 1</ID>
-      <Name>Date (Close Date)</Name>
+      <Name>Date - Close Date</Name>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="ebc8e5b0-f783-4883-a62e-5bcdc5b10c2f">
           <DataType>Date</DataType>
@@ -589,7 +592,7 @@
         <AttributeRelationship dwd:design-time-name="d3691179-ee5c-4424-90c5-1e898eb3cd3a">
           <AttributeID>Period 1</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Period (Close Date)</Name>
+          <Name>Period - Close Date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Matter Close Date</AttributeHierarchyDisplayFolder>
@@ -598,7 +601,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="2f255fab-8b1e-4869-9530-ac30b4922efa">
       <ID>Year 1</ID>
-      <Name>Year (Close Date)</Name>
+      <Name>Year - Close Date</Name>
       <EstimatedCount>1300</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="f8ac823c-9e2a-4a35-b6a3-0dcd0aeb1d3c">
@@ -616,7 +619,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="1accc26f-c2d1-4bbc-becb-795f4de0d7d5">
       <ID>Period 1</ID>
-      <Name>Period (Close Date)</Name>
+      <Name>Period - Close Date</Name>
       <EstimatedCount>15600</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="3fb859a9-3930-4e6d-946b-62027e60977c">
@@ -631,7 +634,7 @@
         <AttributeRelationship dwd:design-time-name="929cee49-6588-47bb-9c1d-bb103cc1980c">
           <AttributeID>Quarter Name 1</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Quarter Name (Close Date)</Name>
+          <Name>Quarter Name - Close Date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Matter Close Date</AttributeHierarchyDisplayFolder>
@@ -640,7 +643,7 @@
     </Attribute>
     <Attribute dwd:design-time-name="6814d217-b509-4a2f-b778-22c1ea39b931">
       <ID>Quarter Name 1</ID>
-      <Name>Quarter Name (Close Date)</Name>
+      <Name>Quarter Name - Close Date</Name>
       <EstimatedCount>5200</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="4abe9312-66d2-4c7f-b224-ade5f2c1a4ac">
@@ -664,7 +667,7 @@
         <AttributeRelationship dwd:design-time-name="3c14934c-09c0-4659-b925-c128277547c1">
           <AttributeID>Year 1</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Year (Close Date)</Name>
+          <Name>Year - Close Date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyDisplayFolder>Matter Close Date</AttributeHierarchyDisplayFolder>
@@ -965,19 +968,19 @@
       <ID>Hierarchy 1</ID>
       <Name>Matter Open Date Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="22529913-15d6-4f1b-b592-df4c7b219f2b">
-          <ID>Year (Open Date)</ID>
-          <Name>Year (Open Date)</Name>
+        <Level dwd:design-time-name="7484a7be-f990-4774-a784-ed684c87fbc5">
+          <ID>Year - Open Date</ID>
+          <Name>Year - Open Date</Name>
           <SourceAttributeID>Year</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="637cd5f2-adb5-4e33-a618-34f6294bdfac">
-          <ID>Quarter Name (Open Date)</ID>
-          <Name>Quarter Name (Open Date)</Name>
+        <Level dwd:design-time-name="2a8a7bc9-ad7f-47f2-b075-dc2251729064">
+          <ID>Quarter Name - Open Date</ID>
+          <Name>Quarter Name - Open Date</Name>
           <SourceAttributeID>Quarter Name</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="1d995e20-55d8-4368-a2ac-c172227bf259">
-          <ID>Period (Open Date)</ID>
-          <Name>Period (Open Date)</Name>
+        <Level dwd:design-time-name="9159d54a-ea3d-4d65-b65b-ec5173c43002">
+          <ID>Period - Open Date</ID>
+          <Name>Period - Open Date</Name>
           <SourceAttributeID>Period</SourceAttributeID>
         </Level>
         <Level dwd:design-time-name="a109d0ff-d85e-4787-85d1-dc4d4c4d9265">
@@ -991,19 +994,19 @@
       <ID>Hierarchy 2</ID>
       <Name>Matter Close Date Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="49dea9da-cbcd-4da9-a112-69c5696f6bbd">
-          <ID>Year (Close Date)</ID>
-          <Name>Year (Close Date)</Name>
+        <Level dwd:design-time-name="14a83814-77be-49c7-a431-cec6299cb47e">
+          <ID>Year - Close Date</ID>
+          <Name>Year - Close Date</Name>
           <SourceAttributeID>Year 1</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="61981ee4-b2b9-473c-a0c1-e8a02990673a">
-          <ID>Quarter Name (Close Date)</ID>
-          <Name>Quarter Name (Close Date)</Name>
+        <Level dwd:design-time-name="e525ef29-2a97-48ad-b7e2-fc6bf389aa52">
+          <ID>Quarter Name - Close Date</ID>
+          <Name>Quarter Name - Close Date</Name>
           <SourceAttributeID>Quarter Name 1</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="29778da1-d91c-40f4-a87e-cc8e1fd15fe7">
-          <ID>Period (Close Date)</ID>
-          <Name>Period (Close Date)</Name>
+        <Level dwd:design-time-name="d58a5fca-78c5-4dd4-8f4d-d2ad252294df">
+          <ID>Period - Close Date</ID>
+          <Name>Period - Close Date</Name>
           <SourceAttributeID>Period 1</SourceAttributeID>
         </Level>
         <Level dwd:design-time-name="d9f1d6e0-5238-44f7-b787-5dfd73ed53c8">
