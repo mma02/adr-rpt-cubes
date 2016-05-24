@@ -1,0 +1,534 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4af0b542-49ec-40b7-8c04-510042585068" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Matter Config Error Summary</ID>
+  <Name>Matter Config Error Summary</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9830" scrolltop="-498" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24395" y="20241" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter closed date)" left="20" top="7400" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDate1" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="client_detail" left="6495" top="0" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="4180" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00005410000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_client_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter open date)" left="13340" top="7400" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDate2" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="matter_config_errors" left="6085" top="14800" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="5001" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000891300009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_matter_config_errors" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="matter_detail" left="6230" top="7400" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00006612000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_matter_detail" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3530" top="9501" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_detail-DimDate (matter closed date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="23" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3830" y="9900" />
+              <point x="6230" y="9900" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8186" top="4501" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_detail-client_detail]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="7" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8585" y="5000" />
+              <point x="8585" y="7400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="10640" top="9501" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[matter_detail-DimDate (matter open date)]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="22" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13340" y="9900" />
+              <point x="10940" y="9900" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8186" top="11901" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_matter_detail_dbo_matter_config_errors]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8585" y="12400" />
+              <point x="8585" y="14800" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-9830</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-498</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="3533b262-aa1c-4f03-ab27-ff3fde47b125">
+      <ID>Matter Detail</ID>
+      <Name>Matter Detail</Name>
+      <DimensionID>Matter Detail</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="45e843a7-f81d-41f6-8f4e-42514afe81cf">
+          <AttributeID>Matter Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ecf31bd-4162-4968-b481-45b279590be2">
+          <AttributeID>Client Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="184ac38e-ac91-42a8-ac6c-4f08bd83bff0">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="baf4874a-a521-491e-a0bf-276a8eb4f04f">
+          <AttributeID>Client</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b214322-aafc-4687-bbef-cb8f03770eff">
+          <AttributeID>Matter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d00746a1-73d2-43e3-865c-8efe2f370d1d">
+          <AttributeID>Period</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bdbf7f55-faec-46c6-9682-a74ecd5c390d">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c002e7c9-bcd3-4576-80b1-cdf444aa1c2b">
+          <AttributeID>Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1f6a212d-ba6d-4df0-827d-d21ddd1f665f">
+          <AttributeID>Open Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9bb310a7-3a65-419c-8fc9-c1f2bc9d5914">
+          <AttributeID>Close Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4c71a895-e9f4-4d7f-a183-be78ab0c1913">
+          <AttributeID>Date 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a164227-52a3-43e5-8951-71013e424320">
+          <AttributeID>Year 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc240da0-92aa-41e0-a9e3-8f12717aa3b5">
+          <AttributeID>Period 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="784a0e3c-4606-4b20-b232-e21d88803317">
+          <AttributeID>Quarter Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="190ec6ae-6939-4713-80f2-6f345e1a2b06">
+          <AttributeID>Matter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b12e6f37-1650-4419-82ec-4680ac8d14fa">
+          <AttributeID>Matter Short Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da3e10c5-2dfd-44f7-9d32-488c34acd9a9">
+          <AttributeID>Matter Billing Atty Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="57d39de7-32aa-439d-a2d5-b814595f654a">
+          <AttributeID>Matter Billing Atty Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3420ceef-4674-436c-bb54-b4ebe24c39d3">
+          <AttributeID>Matter Resp Atty Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7acb2ac7-58bb-4554-802f-2a5c67d7cf17">
+          <AttributeID>Matter Resp Atty Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9619b0cd-04a7-40a0-b9ce-7ba76ab83e2c">
+          <AttributeID>Billing Coordinator Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d36a87f-f475-4367-a8f0-32df62877754">
+          <AttributeID>Billing Coordinator Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0dee27b4-2ebb-42d7-a532-a0b03df5fea2">
+          <AttributeID>External Ebilling Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="95e50572-3f5e-4bc3-89ed-85ba5bfb9b71">
+          <AttributeID>Default Rate Level</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b5b41848-b220-49db-841b-9cceee2f472e">
+          <AttributeID>Previous Rate Level</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="83eef1b7-b973-45cd-959b-d0b43a85b514">
+          <AttributeID>Variable Rate</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7eefa743-3c51-48eb-8d01-b5dc2bac58c3">
+          <AttributeID>Has Rateset Override</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="31bf75b0-ace8-4fc2-adb0-ae987907e04a">
+          <AttributeID>Has Matter Override</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c04c973-f7ce-4128-91af-088b3744b26d">
+          <AttributeID>Status Desc</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="05c4c7a8-4c6b-455b-a60b-4d7cc43df6c1">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8ff038c5-8fdc-42c3-907d-98bd974aa76a">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="d1d182ed-d377-487b-b978-b50950f57c63">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="8fe7707d-59a7-4b3e-8a8b-38515a31ad29">
+      <ID>Client Detail</ID>
+      <Name>Client Detail</Name>
+      <DimensionID>Client Detail</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b90ccf7e-3b3f-4af8-9b23-2f4f18fc22fb">
+          <AttributeID>Client Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ff1c356d-458e-4430-8f15-f4167d5d78c4">
+          <AttributeID>Client Short Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c83fd14e-35f8-41fa-8319-d1286f32fc0e">
+          <AttributeID>Client Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5c9e4b24-60ff-4ad3-b3bb-d2787be37147">
+          <AttributeID>Client</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="317ffa90-99a5-4e73-b3d7-950363668001">
+          <AttributeID>Client Billing Atty Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8cc89f15-4b86-4894-a610-f0a82ca12ed2">
+          <AttributeID>Client Billing Atty Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="45446dbf-67de-4b91-bbd5-3a417fbbc50a">
+          <AttributeID>Client Orig Atty Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="735fb1ff-02b7-404d-9f91-88431e0aa899">
+          <AttributeID>Client Orig Atty Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bb5db716-8ee2-43b3-9781-29bb43aa438f">
+          <AttributeID>Stact Address</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="72c77e09-eba4-488b-82c5-23d82972412c">
+          <AttributeID>Stact State</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4014d458-1709-4d8c-b300-3fbb7b9cd404">
+          <AttributeID>Stact Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8a69c12-ac9d-418e-8498-aa53d072eba3">
+          <AttributeID>Stact City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="de544260-823b-4ecd-9a92-3f3cc1f5a81e">
+          <AttributeID>Stact Postal Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="732a2c75-1cf7-4506-b592-5fa206567670">
+          <AttributeID>Stact Po Box</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7603aeb1-c705-42ff-a06c-3fd665f94c42">
+          <AttributeID>Default Rate Level</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c5f9b16a-a133-4af6-b0fe-ff6f42e8753d">
+          <AttributeID>Previous Rate Level</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2cf054e-baa3-4ad5-84cf-4bc81147c282">
+          <AttributeID>Variable Rate</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0659eb0e-2844-4881-b900-c4445180e3f8">
+          <AttributeID>Effective Variable Date</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="17c93fa0-7ca1-4cb6-8bad-cdc27f315f96">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="0173aea2-8597-4ba3-9a6e-1eeffae28154">
+      <ID>Matter Config Errors</ID>
+      <Name>Matter Config Errors</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="254dca3b-a8bd-4e2a-8413-e9cfecbd72ef">
+          <ID>Rateset Client Code Mismatch</ID>
+          <Name>Rateset Client Code Mismatch</Name>
+          <Source dwd:design-time-name="2d39ff38-1225-468c-84ef-3c7bb1258681">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ee5e2cde-abe9-41b3-a109-b42f2a960e7e">
+              <TableID>dbo_matter_config_errors</TableID>
+              <ColumnID>rateset_client_code_mismatch</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b0fa1c8f-2570-4c01-a157-99ea4317e83b">
+          <ID>2var Fees</ID>
+          <Name>2var Fees</Name>
+          <Source dwd:design-time-name="076695eb-a9fb-4fdd-96e2-c44d51736d47">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a47e8f0a-613e-49db-8226-023f7e07cb9b">
+              <TableID>dbo_matter_config_errors</TableID>
+              <ColumnID>_2varFees</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0f7ad0ea-4d25-4e10-920f-195c1a05bf85">
+          <ID>2var Fees Diff Rates</ID>
+          <Name>2var Fees Diff Rates</Name>
+          <Source dwd:design-time-name="db9538de-fb0a-4bf7-9106-e678a177dcbd">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9162ca2a-cd96-421a-be0a-4f43f0d12fe8">
+              <TableID>dbo_matter_config_errors</TableID>
+              <ColumnID>_2varFeesDiffRates</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4f82c052-4a95-4d7b-ab49-563fbc15427d">
+          <ID>Var Std Mismatch</ID>
+          <Name>Var Std Mismatch</Name>
+          <Source dwd:design-time-name="d0c16fd1-96bb-4253-b71b-dab529882073">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="367240a0-e59e-48ca-b4d6-66593ed765dc">
+              <TableID>dbo_matter_config_errors</TableID>
+              <ColumnID>var_std_mismatch</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8b56d8b1-b0af-4361-851a-dcfc8d79f2e9">
+          <ID>Matter Rateset Overrides</ID>
+          <Name>Matter Rateset Overrides</Name>
+          <Source dwd:design-time-name="ea1fae0e-d61c-4753-ac33-b85162ba79ab">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="afb119b0-24a9-4c0a-9bbe-59fe7964b0bb">
+              <TableID>dbo_matter_config_errors</TableID>
+              <ColumnID>matter_rateset_overrides</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="97843b5b-6893-46e5-a2d6-61cff5b67cbd">
+          <ID>Inactive Ratesets To Matter</ID>
+          <Name>Inactive Ratesets To Matter</Name>
+          <Source dwd:design-time-name="958b2ab5-d274-4d96-971f-76e282916b6b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="58140f5a-ac04-4309-9b15-b0c9f491def4">
+              <TableID>dbo_matter_config_errors</TableID>
+              <ColumnID>inactive_ratesets_to_matter</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cc1c7509-5ecf-45ad-b5ff-5ef53cba7331">
+          <CubeDimensionID>Matter Detail</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5e90a699-8fd2-489b-93d1-01a2014b3cf1">
+              <AttributeID>Matter Number</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="22a2efb1-80fa-4b33-b831-09652d3d2a5b">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="089d3804-6187-4ad6-8abc-6c886f75318c">
+                    <TableID>dbo_matter_config_errors</TableID>
+                    <ColumnID>matter_number</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5052881d-9ebe-49dd-8b24-328d64d571a8">
+          <CubeDimensionID>Client Detail</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ce786274-fb9d-41f9-bb94-bc9ac2a30680">
+              <AttributeID>Client Code</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Matter Detail</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Client Code</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="52c6d86f-f2c7-4904-b46d-9e1379a18628">
+    <DataSourceViewID>Adr Rpt</DataSourceViewID>
+  </Source>
+  <Kpis>
+    <Kpi dwd:design-time-name="1c414277-fbe4-43aa-97a0-fde3ad752558">
+      <ID>KPI</ID>
+      <Name>Two Variable Fees With Same Effective Date</Name>
+      <Value>[Measures].[2var Fees]</Value>
+      <Goal>0</Goal>
+      <Status>[Measures].[2var Fees]</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="def3868b-92da-4c59-a413-aa1e2d47eb8e">
+      <ID>KPI 1</ID>
+      <Name>Two Variable Fees With Same Effective Date and Different Rates</Name>
+      <Value>[Measures].[2var Fees Diff Rates]</Value>
+      <Goal>0</Goal>
+      <Status>[Measures].[2var Fees Diff Rates]</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="0da7c2aa-375f-46dc-a90d-58a1865cc1c0">
+      <ID>KPI 2</ID>
+      <Name>Inactive Ratesets Attached to Matter</Name>
+      <Value>[Measures].[Inactive Ratesets To Matter]</Value>
+      <Goal>0</Goal>
+      <Status>[Measures].[Inactive Ratesets To Matter]</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="5c8fc385-1df5-4689-96a8-e5dbdd2a7807">
+      <ID>KPI 3</ID>
+      <Name>Matter and Rateset Overrides Attached</Name>
+      <Value>[Measures].[Matter Rateset Overrides]</Value>
+      <Goal>0</Goal>
+      <Status>[Measures].[Matter Rateset Overrides]</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="d9f1c6da-92b7-4b4b-b050-fa935c14822e">
+      <ID>KPI 4</ID>
+      <Name>Rateset Code and Client Code Mismatch</Name>
+      <Value>[Measures].[Rateset Client Code Mismatch]</Value>
+      <Goal>0</Goal>
+      <Status>[Measures].[Rateset Client Code Mismatch]</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="c130f233-cb54-4295-8c7d-ad8bf2fe5ad1">
+      <ID>KPI 5</ID>
+      <Name>Variable And Standard Rate Mismatch</Name>
+      <Value>[Measures].[Var Std Mismatch]</Value>
+      <Goal>0</Goal>
+      <Status>[Measures].[Var Std Mismatch]</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+  </Kpis>
+</Cube>
