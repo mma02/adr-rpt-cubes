@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2176" scrolltop="-1615" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8414" y="20241" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2176" scrolltop="-1615" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8414" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (fee summary)" left="-1409" top="-1138" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate" left="-1409" top="-1138" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
             </control>
@@ -70,31 +70,36 @@
       <Value>
         <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
           <Shapes NodeWidth="82">
+            <Shape Id="Date Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date Key" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
             <Shape Id="Date 1" Expanded="true">
               <Attributes>
                 <Attribute Id="Date 1" />
               </Attributes>
-              <Position x="20" y="20" />
+              <Position x="127" y="20" />
             </Shape>
             <Shape Id="Period" Expanded="false">
               <Attributes>
                 <Attribute Id="Period" />
               </Attributes>
-              <Position x="127" y="20" />
+              <Position x="235" y="20" />
             </Shape>
             <Shape Id="Quarter Name" Expanded="true">
               <Attributes>
                 <Attribute Id="Quarter Name" />
                 <Attribute Id="Quarter" />
               </Attributes>
-              <Position x="235" y="20" />
+              <Position x="342" y="20" />
             </Shape>
             <Shape Id="Year" Expanded="true">
               <Attributes>
                 <Attribute Id="Year" />
-                <Attribute Id="Year0" />
               </Attributes>
-              <Position x="342" y="20" />
+              <Position x="450" y="20" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -128,12 +133,6 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5847aca0-db76-4ad8-b619-f101db626760">
-          <AttributeID>Year0</AttributeID>
-          <Name>Year0</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -203,7 +202,6 @@
       <ID>Date 1</ID>
       <Name>Date 1</Name>
       <Type>Date</Type>
-      <Usage>Key</Usage>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="b74a82f7-6114-42c4-a3c4-ac38a200a975">
           <DataType>Date</DataType>
@@ -240,19 +238,25 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="fbb27b36-2ae9-43a3-872e-4ebf0b51af79">
-      <ID>Year0</ID>
-      <Name>Year0</Name>
+    <Attribute dwd:design-time-name="8832f10b-7e3f-4a0e-9219-320bace7934d">
+      <ID>Date Key</ID>
+      <Name>Date Key</Name>
+      <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="83657d2a-7f39-486c-9b83-3a6cdbff89f4">
+        <KeyColumn dwd:design-time-name="7d86023f-6636-4635-94e3-2c0fa507daad">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e6ec1b21-7a68-48a2-b308-c7a43ab8b373">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="da803a45-43ef-4a51-9c5b-e347b5a28c87">
             <TableID>dbo_DimDate</TableID>
-            <ColumnID>year0</ColumnID>
+            <ColumnID>DateKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="81ef6ac8-53cd-45c0-b2cb-60e465192435">
+          <AttributeID>Date 1</AttributeID>
+          <Name>Date 1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

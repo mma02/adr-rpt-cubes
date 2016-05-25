@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-828" scrolltop="3140" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="8652" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-828" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="11245" y="11615" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -26,28 +26,6 @@
             <layoutobject>
               <ddsxmlobj>
                 <property name="LogicalObject" value="dbo_client_detail" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter open date)" left="7130" top="7400" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="5468" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000a00005c15000088130000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_DimDate2" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimDate (matter closed date)" left="470" top="15011" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="5503" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000a00007f15000088130000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_DimDate1" vartype="8" />
               </ddsxmlobj>
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
@@ -81,44 +59,6 @@
               <point x="2375" y="7400" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4430" top="9501" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[matter_detail-DimDate (matter open date)]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="26" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="7130" y="9900" />
-              <point x="4730" y="9900" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="622" top="12100" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="953" height="3411" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[matter_detail-DimDate (matter closed date)]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="1021" y="15011" />
-              <point x="1021" y="13706" />
-              <point x="1275" y="13706" />
-              <point x="1275" y="12400" />
-            </connector>
-          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -140,7 +80,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>3140</Value>
+      <Value>-5000</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -157,7 +97,7 @@
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
       <Value>
-        <DiagramLayout ZoomPercent="100" ViewPortX="4" ViewPortY="0" xmlns="">
+        <DiagramLayout ZoomPercent="100" ViewPortX="49" ViewPortY="0" xmlns="">
           <Shapes NodeWidth="227">
             <Shape Id="Matter Number" Expanded="true">
               <Attributes>
@@ -287,22 +227,10 @@
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="20bcdfcb-57b8-4ba1-b8a6-c4cdf2d53991">
-          <AttributeID>Client Code</AttributeID>
-          <Name>Client Code</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="e08d92a2-db47-4a03-b36a-1562a984583f">
           <AttributeID>Matter</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Matter</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="51657355-aa94-4ae4-a9fd-357ef72394b6">
-          <AttributeID>Open Date</AttributeID>
-          <Name>Open Date</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5d3f26ff-36e8-41c4-a821-ee3baea771c3">
-          <AttributeID>Close Date</AttributeID>
-          <Name>Close Date</Name>
         </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="ab90f6b3-b5eb-4679-9047-54024bbabfcb">
           <AttributeID>Matter Name</AttributeID>
@@ -364,51 +292,20 @@
           <AttributeID>Status Desc</AttributeID>
           <Name>Matter Status</Name>
         </AttributeRelationship>
-      </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="9a1b038b-b02a-477c-8e46-8c0b71ce68b8">
-      <ID>Client Code</ID>
-      <Name>Client Code</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="6846ed35-770a-4a5d-9df4-8f4e28eee767">
-          <DataType>WChar</DataType>
-          <DataSize>10</DataSize>
-          <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b33049c7-aff5-41c8-93ae-b93dbbc9b63b">
-            <TableID>dbo_client_detail</TableID>
-            <ColumnID>client_code</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="37a129c4-9a66-4ce9-a330-d0737565c359">
-      <ID>Date</ID>
-      <Name>Date - Open Date</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="dd45b380-0ddf-4321-8807-cd76827775ec">
-          <DataType>Date</DataType>
-          <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dbe0d5ad-ae3c-49c4-afc0-817b89d1fe66">
-            <TableID>dbo_DimDate2</TableID>
-            <ColumnID>Date</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="2c643e53-d797-4a07-8f70-db34bcae960c">
-          <AttributeID>Period</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
-          <Name>Period - Open Date</Name>
+        <AttributeRelationship dwd:design-time-name="3e28f623-3868-4e96-91d9-0f5f32c7fb22">
+          <AttributeID>Client Code</AttributeID>
+          <Name>Client Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0fdb7e2c-dc4a-463f-897b-2a24d9429e93">
+          <AttributeID>Open Date Key</AttributeID>
+          <Name>Open Date Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a2ed19ba-99ab-4b10-8f71-b6be8a0267e4">
+          <AttributeID>Close Date Key</AttributeID>
+          <Name>Close Date Key</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
-      <AttributeHierarchyDisplayFolder>Matter Open Date</AttributeHierarchyDisplayFolder>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -420,12 +317,14 @@
         <KeyColumn dwd:design-time-name="fa52531a-9235-4a67-80b1-a461880a90cb">
           <DataType>WChar</DataType>
           <DataSize>133</DataSize>
+          <Trimming>None</Trimming>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="8323db3f-b276-452a-a342-e845e522f4e6">
             <TableID>dbo_client_detail</TableID>
             <ColumnID>Client</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -449,228 +348,7 @@
           <Name>Client</Name>
         </AttributeRelationship>
       </AttributeRelationships>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="158109b8-605f-44bb-bf7d-02ee7f889e6e">
-      <ID>Period</ID>
-      <Name>Period - Open Date</Name>
-      <EstimatedCount>15600</EstimatedCount>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="4ceafb16-3f55-4450-a909-a49667fec9ba">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3aab9790-7fce-4446-bbe4-2828ce83cb2c">
-            <TableID>dbo_DimDate2</TableID>
-            <ColumnID>Period</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="28a69a9f-ab88-4d6c-b7d9-4319e7774ec7">
-          <AttributeID>Quarter Name</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
-          <Name>Quarter Name - Open Date</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <AttributeHierarchyDisplayFolder>Matter Open Date</AttributeHierarchyDisplayFolder>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="209bd0d2-e0d0-4d4c-856c-8c021241b6e0">
-      <ID>Year</ID>
-      <Name>Year - Open Date</Name>
-      <EstimatedCount>1300</EstimatedCount>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="cb89d4f7-f814-436c-9978-93f0ece1d1c6">
-          <DataType>WChar</DataType>
-          <DataSize>4</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6156ef79-58c5-4cbf-92d9-63b6b4c78930">
-            <TableID>dbo_DimDate2</TableID>
-            <ColumnID>Year</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeHierarchyDisplayFolder>Matter Open Date</AttributeHierarchyDisplayFolder>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="ebd0afe4-6b70-49ab-a6ab-f8f18fc4de3f">
-      <ID>Quarter Name</ID>
-      <Name>Quarter Name - Open Date</Name>
-      <EstimatedCount>5200</EstimatedCount>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="10651738-bdbf-4854-b385-7d0874a31106">
-          <DataType>WChar</DataType>
-          <DataSize>16</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="be57cbd9-96d1-4f15-b0cd-5f8c8ba4ca97">
-            <TableID>dbo_DimDate2</TableID>
-            <ColumnID>QuarterKey</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <NameColumn dwd:design-time-name="86194e24-bd3e-4ffc-a4e3-85d39955d8d6">
-        <DataType>WChar</DataType>
-        <DataSize>9</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="88babf33-7a32-404c-916d-aa7136cdca6e">
-          <TableID>dbo_DimDate2</TableID>
-          <ColumnID>QuarterName</ColumnID>
-        </Source>
-      </NameColumn>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="79618578-56b1-47e9-9c53-4fbe4677118a">
-          <AttributeID>Year</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
-          <Name>Year - Open Date</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <AttributeHierarchyDisplayFolder>Matter Open Date</AttributeHierarchyDisplayFolder>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="43339d0d-88c3-40b9-9736-8d5aef215123">
-      <ID>Open Date</ID>
-      <Name>Open Date</Name>
-      <EstimatedCount>10772</EstimatedCount>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="7352826c-d0c3-4970-a4f9-251bf0ea2efb">
-          <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="feeb6225-f21f-4753-ae7d-931794af9807">
-            <TableID>dbo_matter_detail</TableID>
-            <ColumnID>open_date</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="899755c8-68d2-46d7-a0a2-4353a45b52de">
-          <AttributeID>Date</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
-          <Name>Date - Open Date</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <AttributeHierarchyDisplayFolder>Matter Open Date</AttributeHierarchyDisplayFolder>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="6833c1c9-e7d7-4a85-bb6d-a0a0471aceed">
-      <ID>Close Date</ID>
-      <Name>Close Date</Name>
-      <EstimatedCount>5717</EstimatedCount>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="3df652b6-b029-4fda-90fb-6324250843a2">
-          <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1bca9ada-a692-4696-a828-970932d784e8">
-            <TableID>dbo_matter_detail</TableID>
-            <ColumnID>close_x0020_date</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="d7623568-0463-4787-acf6-f60a7b078cce">
-          <AttributeID>Date 1</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
-          <Name>Date - Close Date</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <MembersWithData>NonLeafDataHidden</MembersWithData>
-      <AttributeHierarchyDisplayFolder>Matter Close Date</AttributeHierarchyDisplayFolder>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="055f4b2d-7665-4ef5-8787-e5f563aed5f9">
-      <ID>Date 1</ID>
-      <Name>Date - Close Date</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="ebc8e5b0-f783-4883-a62e-5bcdc5b10c2f">
-          <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dedc458e-17cf-44ff-8861-c707c308346f">
-            <TableID>dbo_DimDate1</TableID>
-            <ColumnID>Date</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="d3691179-ee5c-4424-90c5-1e898eb3cd3a">
-          <AttributeID>Period 1</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
-          <Name>Period - Close Date</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <AttributeHierarchyDisplayFolder>Matter Close Date</AttributeHierarchyDisplayFolder>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="2f255fab-8b1e-4869-9530-ac30b4922efa">
-      <ID>Year 1</ID>
-      <Name>Year - Close Date</Name>
-      <EstimatedCount>1300</EstimatedCount>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="f8ac823c-9e2a-4a35-b6a3-0dcd0aeb1d3c">
-          <DataType>WChar</DataType>
-          <DataSize>4</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dcab9aba-a843-43c0-940f-b7924df1ea4f">
-            <TableID>dbo_DimDate1</TableID>
-            <ColumnID>Year</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeHierarchyDisplayFolder>Matter Close Date</AttributeHierarchyDisplayFolder>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="1accc26f-c2d1-4bbc-becb-795f4de0d7d5">
-      <ID>Period 1</ID>
-      <Name>Period - Close Date</Name>
-      <EstimatedCount>15600</EstimatedCount>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="3fb859a9-3930-4e6d-946b-62027e60977c">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a8d1bd55-eff0-438b-bdbf-e599c358fd7c">
-            <TableID>dbo_DimDate1</TableID>
-            <ColumnID>Period</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="929cee49-6588-47bb-9c1d-bb103cc1980c">
-          <AttributeID>Quarter Name 1</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
-          <Name>Quarter Name - Close Date</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <AttributeHierarchyDisplayFolder>Matter Close Date</AttributeHierarchyDisplayFolder>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="6814d217-b509-4a2f-b778-22c1ea39b931">
-      <ID>Quarter Name 1</ID>
-      <Name>Quarter Name - Close Date</Name>
-      <EstimatedCount>5200</EstimatedCount>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="4abe9312-66d2-4c7f-b224-ade5f2c1a4ac">
-          <DataType>WChar</DataType>
-          <DataSize>16</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="70ab3ca8-b7e9-4a98-bf76-d3e2e7c82156">
-            <TableID>dbo_DimDate1</TableID>
-            <ColumnID>QuarterKey</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <NameColumn dwd:design-time-name="d0361665-c814-4a0b-bbf2-46f8a4f76114">
-        <DataType>WChar</DataType>
-        <DataSize>9</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="53a59f19-5fac-4b02-976d-54329afe414e">
-          <TableID>dbo_DimDate1</TableID>
-          <ColumnID>QuarterName</ColumnID>
-        </Source>
-      </NameColumn>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="3c14934c-09c0-4659-b925-c128277547c1">
-          <AttributeID>Year 1</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
-          <Name>Year - Close Date</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <AttributeHierarchyDisplayFolder>Matter Close Date</AttributeHierarchyDisplayFolder>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -727,6 +405,7 @@
         <KeyColumn dwd:design-time-name="5fc34e49-f274-47d1-ae50-27ffa9d7019c">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
+          <Trimming>None</Trimming>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="8cb399c9-43d8-4249-a297-5246c96875ce">
             <TableID>dbo_matter_detail</TableID>
             <ColumnID>matter_billing_atty_code</ColumnID>
@@ -795,6 +474,7 @@
         <KeyColumn dwd:design-time-name="3ebab591-03c5-43c8-803a-005ca172f55b">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
+          <Trimming>None</Trimming>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="592baa09-c78d-4088-b06d-9f443cf84d0b">
             <TableID>dbo_matter_detail</TableID>
             <ColumnID>billing_coordinator_name</ColumnID>
@@ -812,6 +492,7 @@
         <KeyColumn dwd:design-time-name="f61396f7-9275-4af6-8691-d62f4a4bb1f5">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
+          <Trimming>None</Trimming>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="824ae2ac-b9c9-445e-88f0-02ea9ebcc224">
             <TableID>dbo_matter_detail</TableID>
             <ColumnID>billing_coordinator_code</ColumnID>
@@ -828,6 +509,7 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="20431a5c-a7fa-459d-86f0-2388398e8472">
           <DataType>Integer</DataType>
+          <Trimming>None</Trimming>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="f726c5e6-cb75-4e81-a0b4-116ca3588c97">
             <TableID>dbo_matter_detail</TableID>
             <ColumnID>matter_number</ColumnID>
@@ -946,6 +628,52 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="13d90b8b-9350-4ccf-ad04-9251c9f207d5">
+      <ID>Client Code</ID>
+      <Name>Client Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="133bd26a-27df-470a-94d1-d50df1b48726">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="817b7f23-2ca1-4932-a86f-4dbb91c966dc">
+            <TableID>dbo_matter_detail</TableID>
+            <ColumnID>client_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c3248ce8-2c82-4374-b7d0-9ec6da985cf6">
+      <ID>Open Date Key</ID>
+      <Name>Open Date Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b345cddf-be4e-40e8-81a1-7541d6645b6a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fc4f82de-1f07-4d10-baa2-47c51b64f46c">
+            <TableID>dbo_matter_detail</TableID>
+            <ColumnID>open_date_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fdd71a28-b0de-4437-8bae-dd32313a9625">
+      <ID>Close Date Key</ID>
+      <Name>Close Date Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="faaf4e8f-4688-4cc2-b3d6-d50ded77bdd9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4ef5fe4e-ec12-4dc5-92a9-9055127ce5ca">
+            <TableID>dbo_matter_detail</TableID>
+            <ColumnID>close_date_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
   <Hierarchies>
     <Hierarchy dwd:design-time-name="15c88fcc-7e32-4488-91bf-646084ae8677">
@@ -961,58 +689,6 @@
           <ID>Matter</ID>
           <Name>Matter</Name>
           <SourceAttributeID>Matter</SourceAttributeID>
-        </Level>
-      </Levels>
-    </Hierarchy>
-    <Hierarchy dwd:design-time-name="6838f22f-6ed7-4f2b-b8f9-1d02e33c6425">
-      <ID>Hierarchy 1</ID>
-      <Name>Matter Open Date Hierarchy</Name>
-      <Levels>
-        <Level dwd:design-time-name="7484a7be-f990-4774-a784-ed684c87fbc5">
-          <ID>Year - Open Date</ID>
-          <Name>Year - Open Date</Name>
-          <SourceAttributeID>Year</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="2a8a7bc9-ad7f-47f2-b075-dc2251729064">
-          <ID>Quarter Name - Open Date</ID>
-          <Name>Quarter Name - Open Date</Name>
-          <SourceAttributeID>Quarter Name</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="9159d54a-ea3d-4d65-b65b-ec5173c43002">
-          <ID>Period - Open Date</ID>
-          <Name>Period - Open Date</Name>
-          <SourceAttributeID>Period</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="a109d0ff-d85e-4787-85d1-dc4d4c4d9265">
-          <ID>Open Date</ID>
-          <Name>Open Date</Name>
-          <SourceAttributeID>Open Date</SourceAttributeID>
-        </Level>
-      </Levels>
-    </Hierarchy>
-    <Hierarchy dwd:design-time-name="1733cf65-fa52-4bd2-b742-42555c8758aa">
-      <ID>Hierarchy 2</ID>
-      <Name>Matter Close Date Hierarchy</Name>
-      <Levels>
-        <Level dwd:design-time-name="14a83814-77be-49c7-a431-cec6299cb47e">
-          <ID>Year - Close Date</ID>
-          <Name>Year - Close Date</Name>
-          <SourceAttributeID>Year 1</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="e525ef29-2a97-48ad-b7e2-fc6bf389aa52">
-          <ID>Quarter Name - Close Date</ID>
-          <Name>Quarter Name - Close Date</Name>
-          <SourceAttributeID>Quarter Name 1</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="d58a5fca-78c5-4dd4-8f4d-d2ad252294df">
-          <ID>Period - Close Date</ID>
-          <Name>Period - Close Date</Name>
-          <SourceAttributeID>Period 1</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="d9f1d6e0-5238-44f7-b787-5dfd73ed53c8">
-          <ID>Close Date</ID>
-          <Name>Close Date</Name>
-          <SourceAttributeID>Close Date</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
