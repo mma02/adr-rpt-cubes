@@ -18,6 +18,16 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
+      <Name>Matter Config Error Summary.cube</Name>
+      <FullPath>Matter Config Error Summary.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Matter Config Error Summary.partitions</Name>
+          <FullPath>Matter Config Error Summary.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Override Rates.cube</Name>
       <FullPath>Override Rates.cube</FullPath>
       <Dependencies>
@@ -38,10 +48,6 @@
       <FullPath>Dim Date.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Fees Summary.dim</Name>
-      <FullPath>Fees Summary.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Client Detail.dim</Name>
       <FullPath>Client Detail.dim</FullPath>
     </ProjectItem>
@@ -50,16 +56,20 @@
       <FullPath>Matter Detail.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Bill Group Detail.dim</Name>
+      <FullPath>Bill Group Detail.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fees Summary.dim</Name>
+      <FullPath>Fees Summary.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Matter Override Rates matter.dim</Name>
       <FullPath>Matter Override Rates matter.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Matter Override Rates rateset.dim</Name>
       <FullPath>Matter Override Rates rateset.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Bill Group Detail.dim</Name>
-      <FullPath>Bill Group Detail.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
