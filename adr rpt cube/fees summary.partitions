@@ -4,82 +4,693 @@
     <MeasureGroup>
       <ID>Fees Summary</ID>
       <Partitions>
-        <Partition dwd:design-time-name="4a500452-a152-4d7d-8147-09050eb07b6d">
+        <Partition dwd:design-time-name="3f140e01-2d41-4d5b-957a-4052649a8df3">
           <ID>Fees Summary</ID>
           <Name>Fees Summary</Name>
-          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ee5d0b6a-eadc-4052-9c7a-d5e703a65b55">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ca386128-c4a6-4d00-8d5e-033f2b9f5911">
             <DataSourceViewID>Adr Rpt</DataSourceViewID>
             <TableID>dbo_fees_summary</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>119806</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Tran Detail</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="c9bc5840-7b90-4c67-924e-15f017297a17">
-          <ID>Tran Detail</ID>
-          <Name>Tran Detail</Name>
-          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bdcab6b0-7a04-40fd-8deb-e2cad2cb5015">
-            <DataSourceViewID>Adr Rpt</DataSourceViewID>
-            <TableID>dbo_tran_detail</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2016-06-08T17:34:40.436667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2016-06-08T17:34:40.436667Z</LastSchemaUpdate>
+          <EstimatedRows>119806</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Tran Detail</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Tran Uno</AttributeID>
+                  <EstimatedCount>4688692</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Matter Detail</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Matter Number</AttributeID>
+                  <EstimatedCount>326517</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client</AttributeID>
+                  <EstimatedCount>89894</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter</AttributeID>
+                  <EstimatedCount>326517</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Short Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Billing Atty Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Billing Atty Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Resp Atty Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Resp Atty Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Billing Coordinator Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Billing Coordinator Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>External Ebilling Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Default Rate Level</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Previous Rate Level</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Variable Rate</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Has Rateset Override</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Has Matter Override</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Status Desc</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Open Date Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Close Date Key</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Fees Summary</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Fees Summary Id</AttributeID>
+                  <EstimatedCount>119806</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Bill Tran Uno</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Bill Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Billgrp Code</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Date 2</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Year</AttributeID>
+                  <EstimatedCount>301</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Period</AttributeID>
+                  <EstimatedCount>3601</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter Name</AttributeID>
+                  <EstimatedCount>1201</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date 1</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Key</AttributeID>
+                  <EstimatedCount>109575</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Date 3</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Year</AttributeID>
+                  <EstimatedCount>301</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Period</AttributeID>
+                  <EstimatedCount>3601</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter Name</AttributeID>
+                  <EstimatedCount>1201</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date 1</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Key</AttributeID>
+                  <EstimatedCount>109575</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Date</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Year</AttributeID>
+                  <EstimatedCount>301</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Period</AttributeID>
+                  <EstimatedCount>3601</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter Name</AttributeID>
+                  <EstimatedCount>1201</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date 1</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Key</AttributeID>
+                  <EstimatedCount>109575</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Client Detail</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Client Code</AttributeID>
+                  <EstimatedCount>89894</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Short Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Billing Atty Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Billing Atty Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Orig Atty Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Orig Atty Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact Address</AttributeID>
+                  <EstimatedCount>45817</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact State</AttributeID>
+                  <EstimatedCount>60</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact Country</AttributeID>
+                  <EstimatedCount>90</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact City</AttributeID>
+                  <EstimatedCount>4732</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact Postal Code</AttributeID>
+                  <EstimatedCount>10769</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact Po Box</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Default Rate Level</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Previous Rate Level</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Variable Rate</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Effective Variable Date</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Tran Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Matter Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Fees Summary</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date 2</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date 3</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Client Detail</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Stact State</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Tran Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Matter Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Fees Summary</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date 2</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date 3</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Client Detail</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Tran Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Matter Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Fees Summary</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date 2</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date 3</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Client Detail</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Fee Write Off Detail</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a587f5e9-bcdb-4d0d-b91e-05ea2f4723f9">
+        <Partition dwd:design-time-name="fc035ccd-ca17-4732-ac5e-c0f19e0630c2">
           <ID>Fee Write Off Detail</ID>
           <Name>Fee Write Off Detail</Name>
-          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3be58320-78b2-4324-ac03-1bad6edff288">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e4708cbb-fda4-4ac6-94c0-0e0b953bb24a">
             <DataSourceViewID>Adr Rpt</DataSourceViewID>
             <TableID>dbo_fee_write_off_detail</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>8479</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2016-06-08T17:36:55.136667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2016-06-08T17:36:55.136667Z</LastSchemaUpdate>
+          <EstimatedRows>8479</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Tran Detail</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Tran Uno</AttributeID>
+                  <EstimatedCount>4688692</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Matter Detail</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Matter Number</AttributeID>
+                  <EstimatedCount>326517</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client</AttributeID>
+                  <EstimatedCount>89894</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter</AttributeID>
+                  <EstimatedCount>326517</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Short Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Billing Atty Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Billing Atty Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Resp Atty Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Resp Atty Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Billing Coordinator Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Billing Coordinator Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>External Ebilling Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Default Rate Level</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Previous Rate Level</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Variable Rate</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Has Rateset Override</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Has Matter Override</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Status Desc</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Open Date Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Close Date Key</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Date 1</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Year</AttributeID>
+                  <EstimatedCount>301</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Period</AttributeID>
+                  <EstimatedCount>3601</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter Name</AttributeID>
+                  <EstimatedCount>1201</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date 1</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quarter</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Key</AttributeID>
+                  <EstimatedCount>109575</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Client Detail</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Client Code</AttributeID>
+                  <EstimatedCount>89894</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Short Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Billing Atty Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Billing Atty Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Orig Atty Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Client Orig Atty Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact Address</AttributeID>
+                  <EstimatedCount>45817</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact State</AttributeID>
+                  <EstimatedCount>60</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact Country</AttributeID>
+                  <EstimatedCount>90</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact City</AttributeID>
+                  <EstimatedCount>4732</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact Postal Code</AttributeID>
+                  <EstimatedCount>10769</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Stact Po Box</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Default Rate Level</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Previous Rate Level</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Variable Rate</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Effective Variable Date</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Tran Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Matter Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Client Detail</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Stact State</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Tran Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Matter Detail</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Dim Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>Client Detail</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Aged Ar</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d95883e0-699b-420d-bac7-c5c5af720107">
+        <Partition dwd:design-time-name="33531422-fb75-4327-8b32-c7efc304b086">
           <ID>Aged Ar</ID>
           <Name>Aged Ar</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fa43015d-9973-4772-878d-555d128ccae7">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c8213a1f-6de3-451c-83b4-8c538a427fa0">
             <DataSourceViewID>Adr Rpt</DataSourceViewID>
             <TableID>dbo_aged_ar</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>142625</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2016-06-08T17:37:18.773333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2016-06-08T17:37:18.773333Z</LastSchemaUpdate>
+          <EstimatedRows>142625</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Fees Summary</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Fees Summary Id</AttributeID>
+                  <EstimatedCount>119806</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Matter Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Bill Tran Uno</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Bill Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Billgrp Code</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>Fees Summary</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>

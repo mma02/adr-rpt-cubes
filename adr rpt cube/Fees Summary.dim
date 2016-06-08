@@ -83,6 +83,7 @@
       <ID>Fees Summary Id</ID>
       <Name>Fees Summary Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>119806</EstimatedCount>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="f1e42e0d-395e-49bd-ba9c-fe037516e0cf">
           <DataType>Integer</DataType>
