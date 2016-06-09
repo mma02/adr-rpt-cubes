@@ -1168,7 +1168,7 @@
                   <xs:element name="discount_level" msprop:design-time-name="5c4ef57b-0a02-44d9-aeaa-b22cb537cb2f" msprop:DbColumnName="discount_level" msprop:FriendlyName="discount_level" type="xs:double" minOccurs="0" />
                   <xs:element name="bill_grp_uno" msprop:design-time-name="c4fd2b94-80f0-4023-85c4-7ef3ae84d3bd" msprop:DbColumnName="bill_grp_uno" type="xs:int" minOccurs="0" />
                   <xs:element name="bill_date_key" msprop:design-time-name="159f77fa-dc19-476d-b036-c437acde786d" msprop:DbColumnName="bill_date_key" type="xs:int" minOccurs="0" />
-                  <xs:element name="invoice_number" msprop:DbColumnName="invoice_number" msprop:design-time-name="541108b1-85ab-484b-80ee-4d2225ba95bb" type="xs:int" minOccurs="0" />
+                  <xs:element name="bill_number" msprop:DbColumnName="bill_number" msprop:design-time-name="052a7305-b624-4bec-98ef-8cf99ba0ee4c" type="xs:int" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
