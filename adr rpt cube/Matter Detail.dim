@@ -105,7 +105,11 @@
                 <Attribute Id="Billing Coordinator Code" />
                 <Attribute Id="Billing Coordinator Name" />
                 <Attribute Id="Client Code" />
+                <Attribute Id="Close Date Key" />
                 <Attribute Id="Default Rate Level" />
+                <Attribute Id="e B Ill Provider" />
+                <Attribute Id="e Bill Client ID" />
+                <Attribute Id="e Bill Invoice Description" />
                 <Attribute Id="External Ebilling Number" />
                 <Attribute Id="Has Matter Override" />
                 <Attribute Id="Has Rateset Override" />
@@ -116,70 +120,11 @@
                 <Attribute Id="Matter Resp Atty Name" />
                 <Attribute Id="Matter Short Name" />
                 <Attribute Id="Status Desc" />
+                <Attribute Id="Open Date Key" />
                 <Attribute Id="Previous Rate Level" />
                 <Attribute Id="Variable Rate" />
               </Attributes>
               <Position x="20" y="20" />
-            </Shape>
-            <Shape Id="Close Date" Expanded="true">
-              <Attributes>
-                <Attribute Id="Close Date" />
-              </Attributes>
-              <Position x="308" y="20" />
-            </Shape>
-            <Shape Id="Date 1" Expanded="true">
-              <Attributes>
-                <Attribute Id="Date 1" />
-              </Attributes>
-              <Position x="597" y="20" />
-            </Shape>
-            <Shape Id="Period 1" Expanded="true">
-              <Attributes>
-                <Attribute Id="Period 1" />
-              </Attributes>
-              <Position x="886" y="20" />
-            </Shape>
-            <Shape Id="Quarter Name 1" Expanded="true">
-              <Attributes>
-                <Attribute Id="Quarter Name 1" />
-              </Attributes>
-              <Position x="1175" y="20" />
-            </Shape>
-            <Shape Id="Year 1" Expanded="false">
-              <Attributes>
-                <Attribute Id="Year 1" />
-              </Attributes>
-              <Position x="1463" y="20" />
-            </Shape>
-            <Shape Id="Open Date" Expanded="true">
-              <Attributes>
-                <Attribute Id="Open Date" />
-              </Attributes>
-              <Position x="308" y="68" />
-            </Shape>
-            <Shape Id="Date" Expanded="true">
-              <Attributes>
-                <Attribute Id="Date" />
-              </Attributes>
-              <Position x="597" y="68" />
-            </Shape>
-            <Shape Id="Period" Expanded="true">
-              <Attributes>
-                <Attribute Id="Period" />
-              </Attributes>
-              <Position x="886" y="68" />
-            </Shape>
-            <Shape Id="Quarter Name" Expanded="true">
-              <Attributes>
-                <Attribute Id="Quarter Name" />
-              </Attributes>
-              <Position x="1175" y="68" />
-            </Shape>
-            <Shape Id="Year" Expanded="false">
-              <Attributes>
-                <Attribute Id="Year" />
-              </Attributes>
-              <Position x="1463" y="68" />
             </Shape>
             <Shape Id="Matter" Expanded="false">
               <Attributes>
@@ -220,16 +165,24 @@
         <KeyColumn dwd:design-time-name="02e78d92-e7b6-48a2-8614-85f0a0d003d4">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
+          <Trimming>None</Trimming>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="5013a644-ed3e-4b2e-b9b7-22e61e5ddc0b">
             <TableID>dbo_matter_detail</TableID>
             <ColumnID>matter_number</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="2f0ad2f9-9ab9-469a-9f41-155a7a4ee7e5">
+        <DataType>WChar</DataType>
+        <Trimming>None</Trimming>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="45b8c428-06bc-4ccf-a1d9-af2db1bc333e">
+          <TableID>dbo_matter_detail</TableID>
+          <ColumnID>matter_number</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="e08d92a2-db47-4a03-b36a-1562a984583f">
           <AttributeID>Matter</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
           <Name>Matter</Name>
         </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="ab90f6b3-b5eb-4679-9047-54024bbabfcb">
@@ -304,8 +257,28 @@
           <AttributeID>Close Date Key</AttributeID>
           <Name>Close Date Key</Name>
         </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ddaab460-5988-4f62-a9c0-80ecdad1b083">
+          <AttributeID>e Bill Client ID</AttributeID>
+          <Name>e Bill Client ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="12076711-0ae6-4201-8073-a48e7145bfe7">
+          <AttributeID>e Bill Invoice Description</AttributeID>
+          <Name>e Bill Invoice Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9d3314d8-9a6b-4ffc-93f3-f5842ea0a700">
+          <AttributeID>e B Ill Provider</AttributeID>
+          <Name>e B Ill Provider</Name>
+        </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="223a1428-3f4e-4aad-a108-97269c08cf08">
+        <DataType>Integer</DataType>
+        <Trimming>None</Trimming>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="13aae5dc-818e-44dd-a5b4-95424bccb11d">
+          <TableID>dbo_matter_detail</TableID>
+          <ColumnID>matter_number</ColumnID>
+        </Source>
+      </ValueColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -333,12 +306,11 @@
       <Name>Matter</Name>
       <EstimatedCount>326517</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="bdaeab69-6f18-47be-8eba-3f6d09fffae0">
-          <DataType>WChar</DataType>
-          <DataSize>273</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f58edda-623a-4bce-a2c4-235f64be269d">
+        <KeyColumn dwd:design-time-name="3150d9d7-0d6f-448e-8f5b-413e3581730a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4c2c9428-28bf-4c72-b413-d0ce69a32962">
             <TableID>dbo_matter_detail</TableID>
-            <ColumnID>Matter</ColumnID>
+            <ColumnID>matter_number</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
@@ -656,6 +628,7 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -671,6 +644,61 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5ee82374-e4ed-42e2-9920-f0b803369820">
+      <ID>e Bill Client ID</ID>
+      <Name>e Bill Client ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="23629065-6cc8-4cbd-a2cd-6e3060b5149f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Trimming>None</Trimming>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee4baac1-220c-4677-b3cf-18d7016fd9e0">
+            <TableID>dbo_matter_detail</TableID>
+            <ColumnID>_EBILL_CLIENT_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>e Billing Information</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="40ca317f-28fc-4475-905c-1c065d764fe6">
+      <ID>e Bill Invoice Description</ID>
+      <Name>e Bill Invoice Description</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="92687fbd-7b45-41d7-979c-9a5f217a58d0">
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Trimming>None</Trimming>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0ed1c18f-de68-475a-8384-662a0a28b929">
+            <TableID>dbo_matter_detail</TableID>
+            <ColumnID>_EBILLING_INVOICE_DESC</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>e Billing Information</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c670828b-088b-4062-a92c-bcabee658c75">
+      <ID>e B Ill Provider</ID>
+      <Name>e B Ill Provider</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3c9e3b12-5bd5-4951-bdb7-51381ad6f83e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Trimming>None</Trimming>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bd9ecdf8-6ff6-4ae1-8d8b-1386245d5098">
+            <TableID>dbo_matter_detail</TableID>
+            <ColumnID>_EBILL_PROVIDER</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>e Billing Information</AttributeHierarchyDisplayFolder>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

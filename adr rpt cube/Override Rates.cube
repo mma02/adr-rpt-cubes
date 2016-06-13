@@ -537,6 +537,15 @@
         <Attribute dwd:design-time-name="a5567476-347c-41e7-b3ac-aa6697d7a628">
           <AttributeID>Close Date Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="ec785df9-a5f0-4cb5-8db6-89e3533e33e1">
+          <AttributeID>e Bill Client ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="03d85e71-072b-46f9-8f94-8625a9112cc5">
+          <AttributeID>e Bill Invoice Description</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6fa7ad33-5acb-4685-b503-9e2c87b5950c">
+          <AttributeID>e B Ill Provider</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="777e82f8-8154-4f6e-b45f-00450fd49808">

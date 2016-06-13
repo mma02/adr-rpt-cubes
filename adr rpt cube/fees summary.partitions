@@ -7,9 +7,9 @@
         <Partition dwd:design-time-name="3f140e01-2d41-4d5b-957a-4052649a8df3">
           <ID>Fees Summary</ID>
           <Name>Fees Summary</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="DsvTableBinding" dwd:design-time-name="ca386128-c4a6-4d00-8d5e-033f2b9f5911">
             <DataSourceViewID>Adr Rpt</DataSourceViewID>
@@ -385,9 +385,9 @@
         <Partition dwd:design-time-name="fc035ccd-ca17-4732-ac5e-c0f19e0630c2">
           <ID>Fee Write Off Detail</ID>
           <Name>Fee Write Off Detail</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="DsvTableBinding" dwd:design-time-name="e4708cbb-fda4-4ac6-94c0-0e0b953bb24a">
             <DataSourceViewID>Adr Rpt</DataSourceViewID>
@@ -633,9 +633,9 @@
         <Partition dwd:design-time-name="33531422-fb75-4327-8b32-c7efc304b086">
           <ID>Aged Ar</ID>
           <Name>Aged Ar</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="DsvTableBinding" dwd:design-time-name="c8213a1f-6de3-451c-83b4-8c538a427fa0">
             <DataSourceViewID>Adr Rpt</DataSourceViewID>
@@ -691,6 +691,26 @@
           </Aggregations>
         </AggregationDesign>
       </AggregationDesigns>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Reciept Detail</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2c5c086e-0786-47e8-b68f-4a0155d991fc">
+          <ID>Reciept Detail</ID>
+          <Name>Reciept Detail</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="db994002-6c9c-49f7-ac61-9838b1a05fb5">
+            <DataSourceViewID>Adr Rpt</DataSourceViewID>
+            <TableID>dbo_reciept_detail</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>

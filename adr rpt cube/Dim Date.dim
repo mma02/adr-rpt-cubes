@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2176" scrolltop="-1615" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8652" y="20241" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2176" scrolltop="-1615" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8837" y="20241" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -201,11 +201,12 @@
     </Attribute>
     <Attribute dwd:design-time-name="f74d89d1-60f5-4a0c-bfee-f72b3fb530c4">
       <ID>Date 1</ID>
-      <Name>Date 1</Name>
+      <Name>Date</Name>
       <Type>Date</Type>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="b74a82f7-6114-42c4-a3c4-ac38a200a975">
           <DataType>Date</DataType>
+          <Trimming>None</Trimming>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="65ac500d-bfea-4685-92e4-ebcaee863ab1">
             <TableID>dbo_DimDate</TableID>
             <ColumnID>Date</ColumnID>
@@ -255,7 +256,7 @@
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="81ef6ac8-53cd-45c0-b2cb-60e465192435">
           <AttributeID>Date 1</AttributeID>
-          <Name>Date 1</Name>
+          <Name>Date</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
