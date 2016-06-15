@@ -37,26 +37,6 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
-    <ProjectItem>
-      <Name>fees summary 1.cube</Name>
-      <FullPath>fees summary 1.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>fees summary 1.partitions</Name>
-          <FullPath>fees summary 1.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>fees summary 2.cube</Name>
-      <FullPath>fees summary 2.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>fees summary 2.partitions</Name>
-          <FullPath>fees summary 2.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>

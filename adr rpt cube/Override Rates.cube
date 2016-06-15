@@ -370,6 +370,9 @@
         <Attribute dwd:design-time-name="50e34047-9433-4467-b16e-27de52870c16">
           <AttributeID>Rateset Override Rate</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="8396e38b-a7ad-4c2f-a636-8c61e1524290">
+          <AttributeID>Rateset Inactive</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="2a4eaff6-a8c9-48b0-b462-dda746858f6a">
